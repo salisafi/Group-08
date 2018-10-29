@@ -1,0 +1,7 @@
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #1
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+error: Forever detected script was killed by signal: SIGKILL

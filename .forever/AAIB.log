@@ -1,0 +1,433 @@
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+req.body: [object Object]
+/home/student/Group-08/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:491:11)
+    at ServerResponse.setHeader (_http_outgoing.js:498:3)
+    at ServerResponse.header (/home/student/Group-08/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.location (/home/student/Group-08/node_modules/express/lib/response.js:884:15)
+    at ServerResponse.redirect (/home/student/Group-08/node_modules/express/lib/response.js:922:18)
+    at Query.<anonymous> (/home/student/Group-08/index.js:51:9)
+    at Query.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:502:10)
+    at Query._callback (/home/student/Group-08/node_modules/mysql/lib/Connection.js:468:16)
+    at Query.Sequence.end (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Query.js:90:8)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #1
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+req.body: [object Object]
+Cipher {
+  _handle: {},
+  _decoder: null,
+  _options: undefined,
+  writable: true,
+  readable: true }
+/home/student/Group-08/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:491:11)
+    at ServerResponse.setHeader (_http_outgoing.js:498:3)
+    at ServerResponse.header (/home/student/Group-08/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.location (/home/student/Group-08/node_modules/express/lib/response.js:884:15)
+    at ServerResponse.redirect (/home/student/Group-08/node_modules/express/lib/response.js:922:18)
+    at Query.<anonymous> (/home/student/Group-08/index.js:54:9)
+    at Query.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:502:10)
+    at Query._callback (/home/student/Group-08/node_modules/mysql/lib/Connection.js:468:16)
+    at Query.Sequence.end (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Query.js:90:8)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #2
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #3
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+req.body: [object Object]
+Cipher {
+  _handle: {},
+  _decoder: null,
+  _options: undefined,
+  writable: true,
+  readable: true }
+/home/student/Group-08/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:491:11)
+    at ServerResponse.setHeader (_http_outgoing.js:498:3)
+    at ServerResponse.header (/home/student/Group-08/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.location (/home/student/Group-08/node_modules/express/lib/response.js:884:15)
+    at ServerResponse.redirect (/home/student/Group-08/node_modules/express/lib/response.js:922:18)
+    at Query.<anonymous> (/home/student/Group-08/index.js:54:9)
+    at Query.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:502:10)
+    at Query._callback (/home/student/Group-08/node_modules/mysql/lib/Connection.js:468:16)
+    at Query.Sequence.end (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Query.js:90:8)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #4
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+req.body: [object Object]
+Cipher {
+  _handle: {},
+  _decoder: null,
+  _options: undefined,
+  writable: true,
+  readable: true }
+/home/student/Group-08/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:491:11)
+    at ServerResponse.setHeader (_http_outgoing.js:498:3)
+    at ServerResponse.header (/home/student/Group-08/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.location (/home/student/Group-08/node_modules/express/lib/response.js:884:15)
+    at ServerResponse.redirect (/home/student/Group-08/node_modules/express/lib/response.js:922:18)
+    at Query.<anonymous> (/home/student/Group-08/index.js:54:9)
+    at Query.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:502:10)
+    at Query._callback (/home/student/Group-08/node_modules/mysql/lib/Connection.js:468:16)
+    at Query.Sequence.end (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #5
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #6
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+req.body: [object Object]
+TypeError: val.toString is not a function
+    at Object.escape (/home/student/Group-08/node_modules/sqlstring/lib/SqlString.js:52:33)
+    at Object.objectToValues (/home/student/Group-08/node_modules/sqlstring/lib/SqlString.js:180:89)
+    at Object.escape (/home/student/Group-08/node_modules/sqlstring/lib/SqlString.js:54:26)
+    at Object.format (/home/student/Group-08/node_modules/sqlstring/lib/SqlString.js:100:19)
+    at Connection.format (/home/student/Group-08/node_modules/mysql/lib/Connection.js:273:20)
+    at Connection.query (/home/student/Group-08/node_modules/mysql/lib/Connection.js:191:22)
+    at /home/student/Group-08/index.js:50:14
+    at Layer.handle [as handle_request] (/home/student/Group-08/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/student/Group-08/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/student/Group-08/node_modules/express/lib/router/route.js:112:3)
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #7
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+req.body: [object Object]
+/home/student/Group-08/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:491:11)
+    at ServerResponse.setHeader (_http_outgoing.js:498:3)
+    at ServerResponse.header (/home/student/Group-08/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.location (/home/student/Group-08/node_modules/express/lib/response.js:884:15)
+    at ServerResponse.redirect (/home/student/Group-08/node_modules/express/lib/response.js:922:18)
+    at Query.<anonymous> (/home/student/Group-08/index.js:53:9)
+    at Query.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:502:10)
+    at Query._callback (/home/student/Group-08/node_modules/mysql/lib/Connection.js:468:16)
+    at Query.Sequence.end (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #8
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+req.body: [object Object]
+/home/student/Group-08/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:491:11)
+    at ServerResponse.setHeader (_http_outgoing.js:498:3)
+    at ServerResponse.header (/home/student/Group-08/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.location (/home/student/Group-08/node_modules/express/lib/response.js:884:15)
+    at ServerResponse.redirect (/home/student/Group-08/node_modules/express/lib/response.js:922:18)
+    at Query.<anonymous> (/home/student/Group-08/index.js:53:9)
+    at Query.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:502:10)
+    at Query._callback (/home/student/Group-08/node_modules/mysql/lib/Connection.js:468:16)
+    at Query.Sequence.end (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Query.js:90:8)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #9
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #10
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+/home/student/Group-08/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:491:11)
+    at ServerResponse.setHeader (_http_outgoing.js:498:3)
+    at ServerResponse.header (/home/student/Group-08/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.location (/home/student/Group-08/node_modules/express/lib/response.js:884:15)
+    at ServerResponse.redirect (/home/student/Group-08/node_modules/express/lib/response.js:922:18)
+    at Query.<anonymous> (/home/student/Group-08/index.js:53:9)
+    at Query.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:502:10)
+    at Query._callback (/home/student/Group-08/node_modules/mysql/lib/Connection.js:468:16)
+    at Query.Sequence.end (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Query.js:90:8)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #11
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #12
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+TypeError: pwkey.update.final is not a function
+    at /home/student/Group-08/index.js:41:25
+    at Layer.handle [as handle_request] (/home/student/Group-08/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/student/Group-08/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/student/Group-08/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/student/Group-08/node_modules/express/lib/router/layer.js:95:5)
+    at /home/student/Group-08/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/student/Group-08/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/student/Group-08/node_modules/express/lib/router/index.js:275:10)
+    at /home/student/Group-08/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/home/student/Group-08/node_modules/raw-body/index.js:224:16)
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #13
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+ReferenceError: key is not defined
+    at /home/student/Group-08/index.js:39:46
+    at Layer.handle [as handle_request] (/home/student/Group-08/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/student/Group-08/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/student/Group-08/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/student/Group-08/node_modules/express/lib/router/layer.js:95:5)
+    at /home/student/Group-08/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/student/Group-08/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/student/Group-08/node_modules/express/lib/router/index.js:275:10)
+    at /home/student/Group-08/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/home/student/Group-08/node_modules/raw-body/index.js:224:16)
+ReferenceError: key is not defined
+    at /home/student/Group-08/index.js:39:46
+    at Layer.handle [as handle_request] (/home/student/Group-08/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/student/Group-08/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/student/Group-08/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/student/Group-08/node_modules/express/lib/router/layer.js:95:5)
+    at /home/student/Group-08/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/student/Group-08/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/student/Group-08/node_modules/express/lib/router/index.js:275:10)
+    at /home/student/Group-08/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/home/student/Group-08/node_modules/raw-body/index.js:224:16)
+ReferenceError: key is not defined
+    at /home/student/Group-08/index.js:39:46
+    at Layer.handle [as handle_request] (/home/student/Group-08/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/student/Group-08/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/student/Group-08/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/student/Group-08/node_modules/express/lib/router/layer.js:95:5)
+    at /home/student/Group-08/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/student/Group-08/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/student/Group-08/node_modules/express/lib/router/index.js:275:10)
+    at /home/student/Group-08/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/home/student/Group-08/node_modules/raw-body/index.js:224:16)
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #14
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+/home/student/Group-08/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:491:11)
+    at ServerResponse.setHeader (_http_outgoing.js:498:3)
+    at ServerResponse.header (/home/student/Group-08/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.location (/home/student/Group-08/node_modules/express/lib/response.js:884:15)
+    at ServerResponse.redirect (/home/student/Group-08/node_modules/express/lib/response.js:922:18)
+    at Query.<anonymous> (/home/student/Group-08/index.js:57:9)
+    at Query.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:502:10)
+    at Query._callback (/home/student/Group-08/node_modules/mysql/lib/Connection.js:468:16)
+    at Query.Sequence.end (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #15
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/home/student/Group-08/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:97:28)
+    at Socket.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:502:10)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #16
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/home/student/Group-08/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:97:28)
+    at Socket.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:502:10)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #17
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/home/student/Group-08/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:97:28)
+    at Socket.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:502:10)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #18
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #19
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #20
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+/home/student/Group-08/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+ReferenceError: result is not defined
+    at Query.<anonymous> (/home/student/Group-08/index.js:73:7)
+    at Query.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:502:10)
+    at Query._callback (/home/student/Group-08/node_modules/mysql/lib/Connection.js:468:16)
+    at Query.Sequence.end (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.EofPacket (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Query.js:123:8)
+    at Protocol._parsePacket (/home/student/Group-08/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/home/student/Group-08/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/student/Group-08/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:91:28)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #21
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #22
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+/home/student/Group-08/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+ReferenceError: result is not defined
+    at Query.<anonymous> (/home/student/Group-08/index.js:69:7)
+    at Query.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:502:10)
+    at Query._callback (/home/student/Group-08/node_modules/mysql/lib/Connection.js:468:16)
+    at Query.Sequence.end (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.EofPacket (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Query.js:123:8)
+    at Protocol._parsePacket (/home/student/Group-08/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/home/student/Group-08/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/student/Group-08/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:91:28)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #23
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #24
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+/home/student/Group-08/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+ReferenceError: result is not defined
+    at Query.<anonymous> (/home/student/Group-08/index.js:69:7)
+    at Query.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:502:10)
+    at Query._callback (/home/student/Group-08/node_modules/mysql/lib/Connection.js:468:16)
+    at Query.Sequence.end (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.EofPacket (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Query.js:123:8)
+    at Protocol._parsePacket (/home/student/Group-08/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/home/student/Group-08/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/student/Group-08/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:91:28)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #25
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #26
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+/home/student/Group-08/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+ReferenceError: result is not defined
+    at Query.<anonymous> (/home/student/Group-08/index.js:69:7)
+    at Query.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:502:10)
+    at Query._callback (/home/student/Group-08/node_modules/mysql/lib/Connection.js:468:16)
+    at Query.Sequence.end (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.EofPacket (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Query.js:123:8)
+    at Protocol._parsePacket (/home/student/Group-08/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/home/student/Group-08/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/student/Group-08/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:91:28)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #27
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #28
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+/home/student/Group-08/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+ReferenceError: result is not defined
+    at Query.<anonymous> (/home/student/Group-08/index.js:69:7)
+    at Query.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:502:10)
+    at Query._callback (/home/student/Group-08/node_modules/mysql/lib/Connection.js:468:16)
+    at Query.Sequence.end (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.EofPacket (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Query.js:123:8)
+    at Protocol._parsePacket (/home/student/Group-08/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/home/student/Group-08/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/student/Group-08/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:91:28)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #29
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+error: Forever detected script was killed by signal: SIGKILL

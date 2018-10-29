@@ -1,0 +1,453 @@
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/home/student/Group-08/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:97:28)
+    at Socket.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:502:10)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #1
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/home/student/Group-08/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:97:28)
+    at Socket.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:502:10)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #2
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/home/student/Group-08/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:97:28)
+    at Socket.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:502:10)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #3
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/home/student/Group-08/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:97:28)
+    at Socket.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:502:10)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #4
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #5
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+/home/student/Group-08/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:491:11)
+    at ServerResponse.setHeader (_http_outgoing.js:498:3)
+    at ServerResponse.header (/home/student/Group-08/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.location (/home/student/Group-08/node_modules/express/lib/response.js:884:15)
+    at ServerResponse.redirect (/home/student/Group-08/node_modules/express/lib/response.js:922:18)
+    at Query.<anonymous> (/home/student/Group-08/index.js:57:9)
+    at Query.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:502:10)
+    at Query._callback (/home/student/Group-08/node_modules/mysql/lib/Connection.js:468:16)
+    at Query.Sequence.end (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #6
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+/home/student/Group-08/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:491:11)
+    at ServerResponse.setHeader (_http_outgoing.js:498:3)
+    at ServerResponse.header (/home/student/Group-08/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.location (/home/student/Group-08/node_modules/express/lib/response.js:884:15)
+    at ServerResponse.redirect (/home/student/Group-08/node_modules/express/lib/response.js:922:18)
+    at Query.<anonymous> (/home/student/Group-08/index.js:57:9)
+    at Query.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:502:10)
+    at Query._callback (/home/student/Group-08/node_modules/mysql/lib/Connection.js:468:16)
+    at Query.Sequence.end (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #7
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+Error: Error: read ECONNRESET
+Error: Error: Cannot enqueue Query after fatal error.
+Error: Error: Cannot enqueue Query after fatal error.
+Error: Error: Cannot enqueue Query after fatal error.
+_http_outgoing.js:491
+    throw new Error('Can\'t set headers after they are sent.');
+    ^
+
+Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:491:11)
+    at ServerResponse.setHeader (_http_outgoing.js:498:3)
+    at ServerResponse.header (/home/student/Group-08/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.location (/home/student/Group-08/node_modules/express/lib/response.js:884:15)
+    at ServerResponse.redirect (/home/student/Group-08/node_modules/express/lib/response.js:922:18)
+    at Query.<anonymous> (/home/student/Group-08/index.js:57:9)
+    at Query.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:502:10)
+    at Query._callback (/home/student/Group-08/node_modules/mysql/lib/Connection.js:468:16)
+    at Query.Sequence.end (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at /home/student/Group-08/node_modules/mysql/lib/protocol/Protocol.js:224:14
+error: Forever detected script exited with code: 1
+error: Script restart attempt #8
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #9
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+/home/student/Group-08/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error: No default engine was specified and no extension was provided.
+    at new View (/home/student/Group-08/node_modules/express/lib/view.js:61:11)
+    at Function.render (/home/student/Group-08/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/home/student/Group-08/node_modules/express/lib/response.js:1008:7)
+    at Query.<anonymous> (/home/student/Group-08/index.js:72:11)
+    at Query.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:502:10)
+    at Query._callback (/home/student/Group-08/node_modules/mysql/lib/Connection.js:468:16)
+    at Query.Sequence.end (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.EofPacket (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Query.js:123:8)
+    at Protocol._parsePacket (/home/student/Group-08/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #10
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #11
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+/home/student/Group-08/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error: No default engine was specified and no extension was provided.
+    at new View (/home/student/Group-08/node_modules/express/lib/view.js:61:11)
+    at Function.render (/home/student/Group-08/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/home/student/Group-08/node_modules/express/lib/response.js:1008:7)
+    at Query.<anonymous> (/home/student/Group-08/index.js:69:8)
+    at Query.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:502:10)
+    at Query._callback (/home/student/Group-08/node_modules/mysql/lib/Connection.js:468:16)
+    at Query.Sequence.end (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.EofPacket (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Query.js:123:8)
+    at Protocol._parsePacket (/home/student/Group-08/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #12
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+/home/student/Group-08/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error: No default engine was specified and no extension was provided.
+    at new View (/home/student/Group-08/node_modules/express/lib/view.js:61:11)
+    at Function.render (/home/student/Group-08/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/home/student/Group-08/node_modules/express/lib/response.js:1008:7)
+    at Query.<anonymous> (/home/student/Group-08/index.js:69:8)
+    at Query.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:502:10)
+    at Query._callback (/home/student/Group-08/node_modules/mysql/lib/Connection.js:468:16)
+    at Query.Sequence.end (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.EofPacket (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Query.js:123:8)
+    at Protocol._parsePacket (/home/student/Group-08/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #13
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+/home/student/Group-08/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error: No default engine was specified and no extension was provided.
+    at new View (/home/student/Group-08/node_modules/express/lib/view.js:61:11)
+    at Function.render (/home/student/Group-08/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/home/student/Group-08/node_modules/express/lib/response.js:1008:7)
+    at Query.<anonymous> (/home/student/Group-08/index.js:69:8)
+    at Query.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:502:10)
+    at Query._callback (/home/student/Group-08/node_modules/mysql/lib/Connection.js:468:16)
+    at Query.Sequence.end (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.EofPacket (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Query.js:123:8)
+    at Protocol._parsePacket (/home/student/Group-08/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #14
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+/home/student/Group-08/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error: No default engine was specified and no extension was provided.
+    at new View (/home/student/Group-08/node_modules/express/lib/view.js:61:11)
+    at Function.render (/home/student/Group-08/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/home/student/Group-08/node_modules/express/lib/response.js:1008:7)
+    at Query.<anonymous> (/home/student/Group-08/index.js:69:8)
+    at Query.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:502:10)
+    at Query._callback (/home/student/Group-08/node_modules/mysql/lib/Connection.js:468:16)
+    at Query.Sequence.end (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.EofPacket (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Query.js:123:8)
+    at Protocol._parsePacket (/home/student/Group-08/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #15
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+/home/student/Group-08/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error: No default engine was specified and no extension was provided.
+    at new View (/home/student/Group-08/node_modules/express/lib/view.js:61:11)
+    at Function.render (/home/student/Group-08/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/home/student/Group-08/node_modules/express/lib/response.js:1008:7)
+    at Query.<anonymous> (/home/student/Group-08/index.js:69:8)
+    at Query.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:502:10)
+    at Query._callback (/home/student/Group-08/node_modules/mysql/lib/Connection.js:468:16)
+    at Query.Sequence.end (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.EofPacket (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Query.js:123:8)
+    at Protocol._parsePacket (/home/student/Group-08/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #16
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #17
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #18
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #19
+/home/student/Group-08/index.js:38
+  key: ‘sid’, // session key
+       ^
+
+SyntaxError: Invalid or unexpected token
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+error: Forever detected script exited with code: 1
+error: Script restart attempt #20
+/home/student/Group-08/index.js:38
+  key: ‘sid’, // session key
+       ^
+
+SyntaxError: Invalid or unexpected token
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+error: Forever detected script exited with code: 1
+error: Script restart attempt #21
+/home/student/Group-08/index.js:38
+  key: ‘sid’, // session key
+       ^
+
+SyntaxError: Invalid or unexpected token
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+error: Forever detected script exited with code: 1
+error: Script restart attempt #22
+/home/student/Group-08/index.js:38
+  key: ‘sid’, // session key
+       ^
+
+SyntaxError: Invalid or unexpected token
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+error: Forever detected script exited with code: 1
+error: Script restart attempt #23
+/home/student/Group-08/index.js:38
+  key: ‘sid’, // session key
+       ^
+
+SyntaxError: Invalid or unexpected token
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+error: Forever detected script exited with code: 1
+error: Script restart attempt #24
+/home/student/Group-08/index.js:38
+  key: ‘sid’, // session key
+       ^
+
+SyntaxError: Invalid or unexpected token
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+error: Forever detected script exited with code: 1
+error: Script restart attempt #25
+/home/student/Group-08/index.js:38
+  key: ‘sid’, // session key
+       ^
+
+SyntaxError: Invalid or unexpected token
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+error: Forever detected script exited with code: 1
+error: Script restart attempt #26
+/home/student/Group-08/index.js:38
+  key: ‘sid’, // session key
+       ^
+
+SyntaxError: Invalid or unexpected token
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+error: Forever detected script exited with code: 1
+error: Script restart attempt #27
+/home/student/Group-08/index.js:38
+  key: ‘sid’, // session key
+       ^
+
+SyntaxError: Invalid or unexpected token
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+error: Forever detected script exited with code: 1
+error: Script restart attempt #28
+/home/student/Group-08/node_modules/express/lib/express.js:110
+      throw new Error('Most middleware (like ' + name + ') is no longer bundled with Express and must be installed separately. Please see https://github.com/senchalabs/connect#middleware.');
+      ^
+
+Error: Most middleware (like cookieParser) is no longer bundled with Express and must be installed separately. Please see https://github.com/senchalabs/connect#middleware.
+    at Function.get (/home/student/Group-08/node_modules/express/lib/express.js:110:13)
+    at Object.<anonymous> (/home/student/Group-08/index.js:36:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+error: Forever detected script exited with code: 1
+error: Script restart attempt #29
+/home/student/Group-08/node_modules/express/lib/express.js:110
+      throw new Error('Most middleware (like ' + name + ') is no longer bundled with Express and must be installed separately. Please see https://github.com/senchalabs/connect#middleware.');
+      ^
+
+Error: Most middleware (like cookieParser) is no longer bundled with Express and must be installed separately. Please see https://github.com/senchalabs/connect#middleware.
+    at Function.get (/home/student/Group-08/node_modules/express/lib/express.js:110:13)
+    at Object.<anonymous> (/home/student/Group-08/index.js:36:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+error: Forever detected script exited with code: 1

@@ -141,17 +141,17 @@ app.post('/sendemail', function(req, res) {
     }
   });
 });
-
+/*
 app.post('/postItem', function (req, res) {
   // var body = req.body;
  // var key = 'myKey';
 
   console.log("Post Item is clicked!!!");
   
-  /*  connection.query("INSERT INTO testTbl(name, description) VALUES (?,?)", [
-      body.name, body.description  
-    ], function() {
-    res.redirect('/'); */
+//  connection.query("INSERT INTO testTbl(name, description) VALUES (?,?)", [
+//     body.name, body.description  
+//    ], function() {
+ //   res.redirect('/');  
 	
 	connection.query("INSERT INTO testTbl(testId, name, description) VALUES (8, 'Sara Safi', 'Great Sara Safi')", function (err, result) {
 		if (err) throw err;
@@ -161,8 +161,8 @@ app.post('/postItem', function (req, res) {
 	});
 
 });
-
-
+*/
+/*
 
 app.post('/userProfile', function(req, res) {
   var userid = req.body.username;
@@ -191,7 +191,7 @@ app.post('/userProfile', function(req, res) {
       }
     }
   });
-});
+}); */
 
 
 /*************** 404 Not Found **************/

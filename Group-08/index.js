@@ -153,7 +153,7 @@ app.post('/postItem', function (req, res) {
     ], function() {
     res.redirect('/'); */
 	
-	connection.query("INSERT INTO testTbl(testId, name, description) VALUES (7, 'Salimeh Safi', 'Great Sali Safi')", function (err, result) {
+	connection.query("INSERT INTO testTbl(testId, name, description) VALUES (8, 'Sara Safi', 'Great Sara Safi')", function (err, result) {
 		if (err) throw err;
 		else { 
 			console.log("Sali inseretd 1 record inserted");

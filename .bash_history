@@ -570,3 +570,13 @@ vi index.js
 cd Group-08/
 ls
 vi index.js
+ls
+cd Group-08/
+ls
+cd Rent-emAll-Web-Portal/
+ls
+sudo cp index.js ..
+cd ..
+ls
+vi index.js
+forever restart 0

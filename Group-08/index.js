@@ -141,57 +141,7 @@ app.post('/sendemail', function(req, res) {
     }
   });
 });
-/*
-app.post('/postItem', function (req, res) {
-  // var body = req.body;
- // var key = 'myKey';
 
-  console.log("Post Item is clicked!!!");
-  
-//  connection.query("INSERT INTO testTbl(name, description) VALUES (?,?)", [
-//     body.name, body.description  
-//    ], function() {
- //   res.redirect('/');  
-	
-	connection.query("INSERT INTO testTbl(testId, name, description) VALUES (8, 'Sara Safi', 'Great Sara Safi')", function (err, result) {
-		if (err) throw err;
-		else { 
-			console.log("Sali inseretd 1 record inserted");
-		}
-	});
-
-});
-*/
-/*
-
-app.post('/userProfile', function(req, res) {
-  var userid = req.body.username;
-  var password = req.body.password;
-  var key = 'myKey';
-  var sess = req.session;
-
-  //connection.query('SELECT * FROM UserTbl WHERE BINARY userName = ?', [userid], function(err, result) {
-  connection.query('SELECT * FROM UserTbl WHERE BINARY userName = "Abcabc123"', 5 , function(err, result, fields) {
-    if (err) {
-      console.log('Error: ' + err);
-    } else {
-      if (result.length === 0) {
-	res.send('Invalid Username!');
-      } else {
-	console.log('check password');
-	
-		console.log(result);
-	
-	  var firstName = result[0].firstName;
-	   var  lastName = result[0].lastName;
-	   var userName = result[0].userName;
-
-    console.log(firstName,  lastName);
-	
-      }
-    }
-  });
-}); */
 
 
 /*************** 404 Not Found **************/

@@ -166,7 +166,20 @@ app.post('/userProfile', function(req, res) {
 		}
     }
   });
-}); 
+});
+
+app.post('/postItem', function (req, res) {
+  var body = req.body;
+
+  console.log("Post Item is clicked!!!");
+
+  connection.query("INSERT INTO testTbl(name, description) VALUES (?,?)", [
+	  body.name, body.description
+    ], function() {
+    res.write('success');
+    res.end();
+  });
+});
 
 /*************** 404 Not Found **************/
 

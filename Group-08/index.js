@@ -99,9 +99,6 @@ app.post('/login', function(req, res) {
 	} else {
 	  sess.username = result[0].userName;
 	  sess.name = result[0].firstName + ' ' + result[0].lastName;
-	  //res.write(sess.username + '\n');
-	  //res.write(sess.name);
-	  //res.end();
 	  res.redirect('/');
 	}
       }
@@ -142,7 +139,34 @@ app.post('/sendemail', function(req, res) {
   });
 });
 
+app.post('/userProfile', function(req, res) {
+  var userid = req.body.username;
+  var password = req.body.password;
+  var key = 'myKey';
+  var sess = req.session;
 
+  //connection.query('SELECT * FROM UserTbl WHERE BINARY userName = ?', [userid], function(err, result) {
+  connection.query('SELECT * FROM UserTbl WHERE BINARY userName = "Abcabc123"', 5 , function(err, result, fields) {
+    if (err) {
+      console.log('Error: ' + err);
+    } else {
+		if (result.length === 0) {
+			res.send('Invalid Username!');
+		} else {
+			console.log('check password');
+		
+			console.log(result);
+		
+			var firstName = result[0].firstName;
+			var  lastName = result[0].lastName;
+			var userName = result[0].userName;
+
+			console.log(firstName,  lastName);
+	
+		}
+    }
+  });
+}); 
 
 /*************** 404 Not Found **************/
 

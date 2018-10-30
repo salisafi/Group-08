@@ -176,8 +176,8 @@ app.post('/postItem', function (req, res) {
   connection.query("INSERT INTO testTbl(name, description) VALUES (?,?)", [
 	  body.name, body.description
     ], function() {
-    res.write('success');
-    res.end();
+   // res.write('success');
+    res.redirect('/');
   });
 });
 

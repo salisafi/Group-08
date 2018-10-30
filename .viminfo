@@ -15,7 +15,7 @@ $
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1540830108,,"q"
+|2,0,1540857344,,"q"
 :wq
 |2,0,1540785137,,"wq"
 :w
@@ -81,34 +81,42 @@ $
 |3,1,36,0,1,0,1540785119,"e"
 
 # File marks:
-'0  176  0  ~/Group-08/index.js
-|4,48,176,0,1540830108,"~/Group-08/index.js"
-'1  119  0  ~/Group-08/index.js
-|4,49,119,0,1540827870,"~/Group-08/index.js"
-'2  119  0  ~/Group-08/index.js
-|4,50,119,0,1540827870,"~/Group-08/index.js"
-'3  1  2  ~/Group-08/index.js
-|4,51,1,2,1540821962,"~/Group-08/index.js"
-'4  1  2  ~/Group-08/index.js
-|4,52,1,2,1540821962,"~/Group-08/index.js"
-'5  1  2  ~/Group-08/index.js
-|4,53,1,2,1540821962,"~/Group-08/index.js"
-'6  1  2  ~/Group-08/index.js
-|4,54,1,2,1540821962,"~/Group-08/index.js"
-'7  149  0  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,55,149,0,1540809175,"~/Group-08/Rent-emAll-Web-Portal/index.js"
-'8  149  0  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,56,149,0,1540785373,"~/Group-08/Rent-emAll-Web-Portal/index.js"
-'9  143  2  ~/Group-08/index.js
-|4,57,143,2,1540785287,"~/Group-08/index.js"
+'0  200  0  ~/Group-08/index.js
+|4,48,200,0,1540857344,"~/Group-08/index.js"
+'1  176  0  ~/Group-08/index.js
+|4,49,176,0,1540830108,"~/Group-08/index.js"
+'2  176  0  ~/Group-08/index.js
+|4,50,176,0,1540830108,"~/Group-08/index.js"
+'3  119  0  ~/Group-08/index.js
+|4,51,119,0,1540827870,"~/Group-08/index.js"
+'4  119  0  ~/Group-08/index.js
+|4,52,119,0,1540827870,"~/Group-08/index.js"
+'5  119  0  ~/Group-08/index.js
+|4,53,119,0,1540827870,"~/Group-08/index.js"
+'6  119  0  ~/Group-08/index.js
+|4,54,119,0,1540827870,"~/Group-08/index.js"
+'7  1  2  ~/Group-08/index.js
+|4,55,1,2,1540821962,"~/Group-08/index.js"
+'8  1  2  ~/Group-08/index.js
+|4,56,1,2,1540821962,"~/Group-08/index.js"
+'9  1  2  ~/Group-08/index.js
+|4,57,1,2,1540821962,"~/Group-08/index.js"
 
 # Jumplist (newest first):
+-'  200  0  ~/Group-08/index.js
+|4,39,200,0,1540857344,"~/Group-08/index.js"
+-'  176  0  ~/Group-08/index.js
+|4,39,176,0,1540857305,"~/Group-08/index.js"
 -'  176  0  ~/Group-08/index.js
 |4,39,176,0,1540830108,"~/Group-08/index.js"
 -'  119  0  ~/Group-08/index.js
 |4,39,119,0,1540830101,"~/Group-08/index.js"
 -'  119  0  ~/Group-08/index.js
+|4,39,119,0,1540830101,"~/Group-08/index.js"
+-'  119  0  ~/Group-08/index.js
 |4,39,119,0,1540827870,"~/Group-08/index.js"
+-'  1  2  ~/Group-08/index.js
+|4,39,1,2,1540827865,"~/Group-08/index.js"
 -'  1  2  ~/Group-08/index.js
 |4,39,1,2,1540827865,"~/Group-08/index.js"
 -'  1  2  ~/Group-08/index.js
@@ -121,6 +129,24 @@ $
 |4,39,143,2,1540821952,"~/Group-08/index.js"
 -'  143  2  ~/Group-08/index.js
 |4,39,143,2,1540821952,"~/Group-08/index.js"
+-'  143  2  ~/Group-08/index.js
+|4,39,143,2,1540821952,"~/Group-08/index.js"
+-'  149  0  ~/Group-08/Rent-emAll-Web-Portal/index.js
+|4,39,149,0,1540809175,"~/Group-08/Rent-emAll-Web-Portal/index.js"
+-'  149  0  ~/Group-08/Rent-emAll-Web-Portal/index.js
+|4,39,149,0,1540809175,"~/Group-08/Rent-emAll-Web-Portal/index.js"
+-'  149  0  ~/Group-08/Rent-emAll-Web-Portal/index.js
+|4,39,149,0,1540809175,"~/Group-08/Rent-emAll-Web-Portal/index.js"
+-'  149  0  ~/Group-08/Rent-emAll-Web-Portal/index.js
+|4,39,149,0,1540809175,"~/Group-08/Rent-emAll-Web-Portal/index.js"
+-'  149  0  ~/Group-08/Rent-emAll-Web-Portal/index.js
+|4,39,149,0,1540809175,"~/Group-08/Rent-emAll-Web-Portal/index.js"
+-'  149  0  ~/Group-08/Rent-emAll-Web-Portal/index.js
+|4,39,149,0,1540809175,"~/Group-08/Rent-emAll-Web-Portal/index.js"
+-'  149  0  ~/Group-08/Rent-emAll-Web-Portal/index.js
+|4,39,149,0,1540809175,"~/Group-08/Rent-emAll-Web-Portal/index.js"
+-'  149  0  ~/Group-08/Rent-emAll-Web-Portal/index.js
+|4,39,149,0,1540809175,"~/Group-08/Rent-emAll-Web-Portal/index.js"
 -'  149  0  ~/Group-08/Rent-emAll-Web-Portal/index.js
 |4,39,149,0,1540809175,"~/Group-08/Rent-emAll-Web-Portal/index.js"
 -'  149  0  ~/Group-08/Rent-emAll-Web-Portal/index.js
@@ -153,6 +179,54 @@ $
 |4,39,149,0,1540785373,"~/Group-08/Rent-emAll-Web-Portal/index.js"
 -'  149  0  ~/Group-08/Rent-emAll-Web-Portal/index.js
 |4,39,149,0,1540785373,"~/Group-08/Rent-emAll-Web-Portal/index.js"
+-'  149  0  ~/Group-08/Rent-emAll-Web-Portal/index.js
+|4,39,149,0,1540785373,"~/Group-08/Rent-emAll-Web-Portal/index.js"
+-'  149  0  ~/Group-08/Rent-emAll-Web-Portal/index.js
+|4,39,149,0,1540785373,"~/Group-08/Rent-emAll-Web-Portal/index.js"
+-'  149  0  ~/Group-08/Rent-emAll-Web-Portal/index.js
+|4,39,149,0,1540785373,"~/Group-08/Rent-emAll-Web-Portal/index.js"
+-'  149  0  ~/Group-08/Rent-emAll-Web-Portal/index.js
+|4,39,149,0,1540785373,"~/Group-08/Rent-emAll-Web-Portal/index.js"
+-'  149  0  ~/Group-08/Rent-emAll-Web-Portal/index.js
+|4,39,149,0,1540785373,"~/Group-08/Rent-emAll-Web-Portal/index.js"
+-'  149  0  ~/Group-08/Rent-emAll-Web-Portal/index.js
+|4,39,149,0,1540785373,"~/Group-08/Rent-emAll-Web-Portal/index.js"
+-'  149  0  ~/Group-08/Rent-emAll-Web-Portal/index.js
+|4,39,149,0,1540785373,"~/Group-08/Rent-emAll-Web-Portal/index.js"
+-'  149  0  ~/Group-08/Rent-emAll-Web-Portal/index.js
+|4,39,149,0,1540785373,"~/Group-08/Rent-emAll-Web-Portal/index.js"
+-'  1  0  ~/Group-08/Rent-emAll-Web-Portal/index.js
+|4,39,1,0,1540785366,"~/Group-08/Rent-emAll-Web-Portal/index.js"
+-'  1  0  ~/Group-08/Rent-emAll-Web-Portal/index.js
+|4,39,1,0,1540785366,"~/Group-08/Rent-emAll-Web-Portal/index.js"
+-'  1  0  ~/Group-08/Rent-emAll-Web-Portal/index.js
+|4,39,1,0,1540785366,"~/Group-08/Rent-emAll-Web-Portal/index.js"
+-'  1  0  ~/Group-08/Rent-emAll-Web-Portal/index.js
+|4,39,1,0,1540785366,"~/Group-08/Rent-emAll-Web-Portal/index.js"
+-'  1  0  ~/Group-08/Rent-emAll-Web-Portal/index.js
+|4,39,1,0,1540785366,"~/Group-08/Rent-emAll-Web-Portal/index.js"
+-'  1  0  ~/Group-08/Rent-emAll-Web-Portal/index.js
+|4,39,1,0,1540785366,"~/Group-08/Rent-emAll-Web-Portal/index.js"
+-'  1  0  ~/Group-08/Rent-emAll-Web-Portal/index.js
+|4,39,1,0,1540785366,"~/Group-08/Rent-emAll-Web-Portal/index.js"
+-'  1  0  ~/Group-08/Rent-emAll-Web-Portal/index.js
+|4,39,1,0,1540785366,"~/Group-08/Rent-emAll-Web-Portal/index.js"
+-'  1  0  ~/Group-08/Rent-emAll-Web-Portal/index.js
+|4,39,1,0,1540785366,"~/Group-08/Rent-emAll-Web-Portal/index.js"
+-'  1  0  ~/Group-08/Rent-emAll-Web-Portal/index.js
+|4,39,1,0,1540785366,"~/Group-08/Rent-emAll-Web-Portal/index.js"
+-'  1  0  ~/Group-08/Rent-emAll-Web-Portal/index.js
+|4,39,1,0,1540785366,"~/Group-08/Rent-emAll-Web-Portal/index.js"
+-'  1  0  ~/Group-08/Rent-emAll-Web-Portal/index.js
+|4,39,1,0,1540785366,"~/Group-08/Rent-emAll-Web-Portal/index.js"
+-'  1  0  ~/Group-08/Rent-emAll-Web-Portal/index.js
+|4,39,1,0,1540785366,"~/Group-08/Rent-emAll-Web-Portal/index.js"
+-'  1  0  ~/Group-08/Rent-emAll-Web-Portal/index.js
+|4,39,1,0,1540785366,"~/Group-08/Rent-emAll-Web-Portal/index.js"
+-'  1  0  ~/Group-08/Rent-emAll-Web-Portal/index.js
+|4,39,1,0,1540785366,"~/Group-08/Rent-emAll-Web-Portal/index.js"
+-'  1  0  ~/Group-08/Rent-emAll-Web-Portal/index.js
+|4,39,1,0,1540785366,"~/Group-08/Rent-emAll-Web-Portal/index.js"
 -'  1  0  ~/Group-08/Rent-emAll-Web-Portal/index.js
 |4,39,1,0,1540785366,"~/Group-08/Rent-emAll-Web-Portal/index.js"
 -'  1  0  ~/Group-08/Rent-emAll-Web-Portal/index.js
@@ -208,13 +282,15 @@ $
 -'  134  21  ~/Group-08/index.js
 |4,39,134,21,1540785249,"~/Group-08/index.js"
 -'  134  21  ~/Group-08/index.js
-|4,39,134,21,1540785137,"~/Group-08/index.js"
+|4,39,134,21,1540785249,"~/Group-08/index.js"
 -'  134  21  ~/Group-08/index.js
 |4,39,134,21,1540785137,"~/Group-08/index.js"
 -'  134  21  ~/Group-08/index.js
 |4,39,134,21,1540785137,"~/Group-08/index.js"
 -'  134  21  ~/Group-08/index.js
 |4,39,134,21,1540785137,"~/Group-08/index.js"
+-'  134  21  ~/Group-08/index.js
+|4,39,134,21,1540785137,"~/Group-08/index.js"
 -'  134  58  ~/Group-08/index.js
 |4,39,134,58,1540785092,"~/Group-08/index.js"
 -'  134  58  ~/Group-08/index.js
@@ -227,88 +303,12 @@ $
 |4,39,140,17,1540785066,"~/Group-08/index.js"
 -'  140  17  ~/Group-08/index.js
 |4,39,140,17,1540785066,"~/Group-08/index.js"
--'  140  17  ~/Group-08/index.js
-|4,39,140,17,1540785066,"~/Group-08/index.js"
--'  140  17  ~/Group-08/index.js
-|4,39,140,17,1540785066,"~/Group-08/index.js"
--'  140  17  ~/Group-08/index.js
-|4,39,140,17,1540785066,"~/Group-08/index.js"
--'  140  17  ~/Group-08/index.js
-|4,39,140,17,1540785066,"~/Group-08/index.js"
--'  140  17  ~/Group-08/index.js
-|4,39,140,17,1540785066,"~/Group-08/index.js"
--'  140  17  ~/Group-08/index.js
-|4,39,140,17,1540785066,"~/Group-08/index.js"
--'  140  17  ~/Group-08/index.js
-|4,39,140,17,1540785066,"~/Group-08/index.js"
--'  140  17  ~/Group-08/index.js
-|4,39,140,17,1540785066,"~/Group-08/index.js"
--'  140  17  ~/Group-08/index.js
-|4,39,140,17,1540785066,"~/Group-08/index.js"
--'  140  17  ~/Group-08/index.js
-|4,39,140,17,1540785066,"~/Group-08/index.js"
--'  140  17  ~/Group-08/index.js
-|4,39,140,17,1540785066,"~/Group-08/index.js"
--'  140  17  ~/Group-08/index.js
-|4,39,140,17,1540785066,"~/Group-08/index.js"
--'  140  17  ~/Group-08/index.js
-|4,39,140,17,1540785066,"~/Group-08/index.js"
--'  140  17  ~/Group-08/index.js
-|4,39,140,17,1540785028,"~/Group-08/index.js"
--'  140  17  ~/Group-08/index.js
-|4,39,140,17,1540785028,"~/Group-08/index.js"
--'  140  17  ~/Group-08/index.js
-|4,39,140,17,1540785028,"~/Group-08/index.js"
--'  140  17  ~/Group-08/index.js
-|4,39,140,17,1540785028,"~/Group-08/index.js"
--'  127  28  ~/Group-08/index.js
-|4,39,127,28,1540784865,"~/Group-08/index.js"
--'  127  28  ~/Group-08/index.js
-|4,39,127,28,1540784865,"~/Group-08/index.js"
--'  127  28  ~/Group-08/index.js
-|4,39,127,28,1540784865,"~/Group-08/index.js"
--'  127  28  ~/Group-08/index.js
-|4,39,127,28,1540784865,"~/Group-08/index.js"
--'  127  28  ~/Group-08/index.js
-|4,39,127,28,1540784865,"~/Group-08/index.js"
--'  127  28  ~/Group-08/index.js
-|4,39,127,28,1540784865,"~/Group-08/index.js"
--'  127  28  ~/Group-08/index.js
-|4,39,127,28,1540784865,"~/Group-08/index.js"
--'  127  28  ~/Group-08/index.js
-|4,39,127,28,1540784865,"~/Group-08/index.js"
--'  127  28  ~/Group-08/index.js
-|4,39,127,28,1540784865,"~/Group-08/index.js"
--'  127  28  ~/Group-08/index.js
-|4,39,127,28,1540784865,"~/Group-08/index.js"
--'  127  28  ~/Group-08/index.js
-|4,39,127,28,1540784865,"~/Group-08/index.js"
--'  127  28  ~/Group-08/index.js
-|4,39,127,28,1540784865,"~/Group-08/index.js"
--'  127  28  ~/Group-08/index.js
-|4,39,127,28,1540784865,"~/Group-08/index.js"
--'  127  28  ~/Group-08/index.js
-|4,39,127,28,1540784865,"~/Group-08/index.js"
--'  127  28  ~/Group-08/index.js
-|4,39,127,28,1540784865,"~/Group-08/index.js"
--'  127  28  ~/Group-08/index.js
-|4,39,127,28,1540784865,"~/Group-08/index.js"
--'  127  28  ~/Group-08/index.js
-|4,39,127,28,1540784865,"~/Group-08/index.js"
--'  127  28  ~/Group-08/index.js
-|4,39,127,28,1540784865,"~/Group-08/index.js"
--'  127  28  ~/Group-08/index.js
-|4,39,127,28,1540784865,"~/Group-08/index.js"
--'  127  28  ~/Group-08/index.js
-|4,39,127,28,1540784823,"~/Group-08/index.js"
--'  127  28  ~/Group-08/index.js
-|4,39,127,28,1540784823,"~/Group-08/index.js"
 
 # History of marks within files (newest to oldest):
 
 > ~/Group-08/index.js
-	*	1540830107	0
-	"	176	0
+	*	1540857342	0
+	"	200	0
 	^	134	22
 	.	134	22
 	+	153	4

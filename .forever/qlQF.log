@@ -1,0 +1,256 @@
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 10.10.193.142:10034
+    at Server.setupListenHandle [as _listen2] (net.js:1360:14)
+    at listenInCluster (net.js:1401:12)
+    at doListen (net.js:1510:7)
+    at _combinedTickCallback (internal/process/next_tick.js:142:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+    at Function.Module.runMain (module.js:696:11)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+error: Forever detected script exited with code: 1
+error: Script restart attempt #1
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 10.10.193.142:10034
+    at Server.setupListenHandle [as _listen2] (net.js:1360:14)
+    at listenInCluster (net.js:1401:12)
+    at doListen (net.js:1510:7)
+    at _combinedTickCallback (internal/process/next_tick.js:142:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+    at Function.Module.runMain (module.js:696:11)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+error: Forever detected script exited with code: 1
+error: Script restart attempt #2
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 10.10.193.142:10034
+    at Server.setupListenHandle [as _listen2] (net.js:1360:14)
+    at listenInCluster (net.js:1401:12)
+    at doListen (net.js:1510:7)
+    at _combinedTickCallback (internal/process/next_tick.js:142:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+    at Function.Module.runMain (module.js:696:11)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+error: Forever detected script exited with code: 1
+error: Script restart attempt #3
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 10.10.193.142:10034
+    at Server.setupListenHandle [as _listen2] (net.js:1360:14)
+    at listenInCluster (net.js:1401:12)
+    at doListen (net.js:1510:7)
+    at _combinedTickCallback (internal/process/next_tick.js:142:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+    at Function.Module.runMain (module.js:696:11)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+error: Forever detected script exited with code: 1
+error: Script restart attempt #4
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 10.10.193.142:10034
+    at Server.setupListenHandle [as _listen2] (net.js:1360:14)
+    at listenInCluster (net.js:1401:12)
+    at doListen (net.js:1510:7)
+    at _combinedTickCallback (internal/process/next_tick.js:142:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+    at Function.Module.runMain (module.js:696:11)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+error: Forever detected script exited with code: 1
+error: Script restart attempt #5
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 10.10.193.142:10034
+    at Server.setupListenHandle [as _listen2] (net.js:1360:14)
+    at listenInCluster (net.js:1401:12)
+    at doListen (net.js:1510:7)
+    at _combinedTickCallback (internal/process/next_tick.js:142:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+    at Function.Module.runMain (module.js:696:11)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+error: Forever detected script exited with code: 1
+error: Script restart attempt #6
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 10.10.193.142:10034
+    at Server.setupListenHandle [as _listen2] (net.js:1360:14)
+    at listenInCluster (net.js:1401:12)
+    at doListen (net.js:1510:7)
+    at _combinedTickCallback (internal/process/next_tick.js:142:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+    at Function.Module.runMain (module.js:696:11)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+error: Forever detected script exited with code: 1
+error: Script restart attempt #7
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 10.10.193.142:10034
+    at Server.setupListenHandle [as _listen2] (net.js:1360:14)
+    at listenInCluster (net.js:1401:12)
+    at doListen (net.js:1510:7)
+    at _combinedTickCallback (internal/process/next_tick.js:142:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+    at Function.Module.runMain (module.js:696:11)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+error: Forever detected script exited with code: 1
+error: Script restart attempt #8
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 10.10.193.142:10034
+    at Server.setupListenHandle [as _listen2] (net.js:1360:14)
+    at listenInCluster (net.js:1401:12)
+    at doListen (net.js:1510:7)
+    at _combinedTickCallback (internal/process/next_tick.js:142:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+    at Function.Module.runMain (module.js:696:11)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+error: Forever detected script exited with code: 1
+error: Script restart attempt #9
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 10.10.193.142:10034
+    at Server.setupListenHandle [as _listen2] (net.js:1360:14)
+    at listenInCluster (net.js:1401:12)
+    at doListen (net.js:1510:7)
+    at _combinedTickCallback (internal/process/next_tick.js:142:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+    at Function.Module.runMain (module.js:696:11)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+error: Forever detected script exited with code: 1
+error: Script restart attempt #10
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 10.10.193.142:10034
+    at Server.setupListenHandle [as _listen2] (net.js:1360:14)
+    at listenInCluster (net.js:1401:12)
+    at doListen (net.js:1510:7)
+    at _combinedTickCallback (internal/process/next_tick.js:142:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+    at Function.Module.runMain (module.js:696:11)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+error: Forever detected script exited with code: 1
+error: Script restart attempt #11
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 10.10.193.142:10034
+    at Server.setupListenHandle [as _listen2] (net.js:1360:14)
+    at listenInCluster (net.js:1401:12)
+    at doListen (net.js:1510:7)
+    at _combinedTickCallback (internal/process/next_tick.js:142:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+    at Function.Module.runMain (module.js:696:11)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+error: Forever detected script exited with code: 1
+error: Script restart attempt #12
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 10.10.193.142:10034
+    at Server.setupListenHandle [as _listen2] (net.js:1360:14)
+    at listenInCluster (net.js:1401:12)
+    at doListen (net.js:1510:7)
+    at _combinedTickCallback (internal/process/next_tick.js:142:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+    at Function.Module.runMain (module.js:696:11)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+error: Forever detected script exited with code: 1
+error: Script restart attempt #13
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 10.10.193.142:10034
+    at Server.setupListenHandle [as _listen2] (net.js:1360:14)
+    at listenInCluster (net.js:1401:12)
+    at doListen (net.js:1510:7)
+    at _combinedTickCallback (internal/process/next_tick.js:142:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+    at Function.Module.runMain (module.js:696:11)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+error: Forever detected script exited with code: 1
+error: Script restart attempt #14
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 10.10.193.142:10034
+    at Server.setupListenHandle [as _listen2] (net.js:1360:14)
+    at listenInCluster (net.js:1401:12)
+    at doListen (net.js:1510:7)
+    at _combinedTickCallback (internal/process/next_tick.js:142:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+    at Function.Module.runMain (module.js:696:11)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+error: Forever detected script exited with code: 1
+error: Script restart attempt #15
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 10.10.193.142:10034
+    at Server.setupListenHandle [as _listen2] (net.js:1360:14)
+    at listenInCluster (net.js:1401:12)
+    at doListen (net.js:1510:7)
+    at _combinedTickCallback (internal/process/next_tick.js:142:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+    at Function.Module.runMain (module.js:696:11)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+error: Forever detected script exited with code: 1
+error: Script restart attempt #16
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 10.10.193.142:10034
+    at Server.setupListenHandle [as _listen2] (net.js:1360:14)
+    at listenInCluster (net.js:1401:12)
+    at doListen (net.js:1510:7)
+    at _combinedTickCallback (internal/process/next_tick.js:142:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+    at Function.Module.runMain (module.js:696:11)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+error: Forever detected script exited with code: 1
+error: Script restart attempt #17
+error: Forever detected script was killed by signal: SIGKILL

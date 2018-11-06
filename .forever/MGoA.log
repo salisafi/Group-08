@@ -1,0 +1,77 @@
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+Error: Failed to lookup view "main" in views directory "/home/student/Group-08/Rent-emAll-Web-Portal/Rent-emAll-Web-Portal/Rent-emAll-Web-Portal"
+    at Function.render (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/response.js:1008:7)
+    at ServerResponse.res.render (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express-ejs-layouts/lib/express-layouts.js:77:18)
+    at /home/student/Group-08/Rent-emAll-Web-Portal/Rent-emAll-Web-Portal/index.js:56:7
+    at Layer.handle [as handle_request] (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/router/layer.js:95:5)
+    at /home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/router/index.js:335:12)
+Error: Failed to lookup view "main" in views directory "/home/student/Group-08/Rent-emAll-Web-Portal/Rent-emAll-Web-Portal/Rent-emAll-Web-Portal"
+    at Function.render (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/response.js:1008:7)
+    at ServerResponse.res.render (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express-ejs-layouts/lib/express-layouts.js:77:18)
+    at /home/student/Group-08/Rent-emAll-Web-Portal/Rent-emAll-Web-Portal/index.js:56:7
+    at Layer.handle [as handle_request] (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/router/layer.js:95:5)
+    at /home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/router/index.js:335:12)
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #1
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+Error: Failed to lookup view "main" in views directory "/home/student/Group-08/Rent-emAll-Web-Portal/Rent-emAll-Web-Portal/Rent-emAll-Web-Portal"
+    at Function.render (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/response.js:1008:7)
+    at ServerResponse.res.render (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express-ejs-layouts/lib/express-layouts.js:77:18)
+    at /home/student/Group-08/Rent-emAll-Web-Portal/Rent-emAll-Web-Portal/index.js:56:7
+    at Layer.handle [as handle_request] (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/router/layer.js:95:5)
+    at /home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/router/index.js:335:12)
+Error: Failed to lookup view "main" in views directory "/home/student/Group-08/Rent-emAll-Web-Portal/Rent-emAll-Web-Portal/Rent-emAll-Web-Portal"
+    at Function.render (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/response.js:1008:7)
+    at ServerResponse.res.render (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express-ejs-layouts/lib/express-layouts.js:77:18)
+    at /home/student/Group-08/Rent-emAll-Web-Portal/Rent-emAll-Web-Portal/index.js:56:7
+    at Layer.handle [as handle_request] (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/router/layer.js:95:5)
+    at /home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/router/index.js:335:12)
+Error: Failed to lookup view "main" in views directory "/home/student/Group-08/Rent-emAll-Web-Portal/Rent-emAll-Web-Portal/Rent-emAll-Web-Portal"
+    at Function.render (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/response.js:1008:7)
+    at ServerResponse.res.render (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express-ejs-layouts/lib/express-layouts.js:77:18)
+    at /home/student/Group-08/Rent-emAll-Web-Portal/Rent-emAll-Web-Portal/index.js:56:7
+    at Layer.handle [as handle_request] (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/router/layer.js:95:5)
+    at /home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/router/index.js:335:12)
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #2
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+Error: Failed to lookup view "main" in views directory "/home/student/Group-08/Rent-emAll-Web-Portal/Rent-emAll-Web-Portal/Rent-emAll-Web-Portal"
+    at Function.render (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/response.js:1008:7)
+    at ServerResponse.res.render (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express-ejs-layouts/lib/express-layouts.js:77:18)
+    at /home/student/Group-08/Rent-emAll-Web-Portal/Rent-emAll-Web-Portal/index.js:56:7
+    at Layer.handle [as handle_request] (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/router/layer.js:95:5)
+    at /home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/student/Group-08/Rent-emAll-Web-Portal/node_modules/express/lib/router/index.js:335:12)
+error: Forever detected script was killed by signal: SIGKILL

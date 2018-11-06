@@ -1,0 +1,83 @@
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  username: 'TTTT1111',
+  name: 'Willie Wonka',
+  firstname: 'Willie',
+  lastname: 'Wonka',
+  postalcode: 'm8m8m8',
+  phone: '4164112349',
+  email: 'helloworld@mailer.com' }
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #1
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #2
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+ReferenceError: /home/student/Group-08/Rent-emAll-Web-Portal/main.ejs:32
+    30|         <div class="col-md-12">
+    31|             <% if(sess.name && sess.username){ %>
+ >> 32|             <h1>HELLO <%= name %> (<%= username %>)!</h1>
+    33|             <p>You have logged in.</p>
+    34|             <% } else { %>
+    35|             <h1>Lorem Ipsum</h1>
+
+name is not defined
+    at eval (eval at compile (/home/student/Group-08/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:14:26)
+    at returnedFn (/home/student/Group-08/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/home/student/Group-08/node_modules/ejs/lib/ejs.js:251:36)
+    at View.exports.renderFile [as engine] (/home/student/Group-08/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/home/student/Group-08/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/student/Group-08/node_modules/express/lib/application.js:640:10)
+    at Function.render (/home/student/Group-08/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/home/student/Group-08/node_modules/express/lib/response.js:1008:7)
+    at ServerResponse.res.render (/home/student/Group-08/node_modules/express-ejs-layouts/lib/express-layouts.js:77:18)
+    at /home/student/Group-08/index.js:65:9
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #3
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #4
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #5
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #6
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #7
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+Error: Error: read ECONNRESET
+/home/student/Group-08/index.js:115
+    if (err) throw err;
+             ^
+
+Error: Cannot enqueue Query after fatal error.
+    at Protocol._validateEnqueue (/home/student/Group-08/node_modules/mysql/lib/protocol/Protocol.js:200:16)
+    at Protocol._enqueue (/home/student/Group-08/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Connection.query (/home/student/Group-08/node_modules/mysql/lib/Connection.js:200:25)
+    at /home/student/Group-08/index.js:114:14
+    at Layer.handle [as handle_request] (/home/student/Group-08/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/student/Group-08/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/student/Group-08/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/student/Group-08/node_modules/express/lib/router/layer.js:95:5)
+    at /home/student/Group-08/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/student/Group-08/node_modules/express/lib/router/index.js:335:12)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #8
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+error: Forever detected script was killed by signal: SIGKILL

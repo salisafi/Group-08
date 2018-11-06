@@ -1,0 +1,84 @@
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #1
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+/home/student/Group-08/index.js:115
+    if (err) throw err;
+             ^
+
+Error: read ECONNRESET
+    at TCP.onread (net.js:622:25)
+    --------------------
+    at Protocol._enqueue (/home/student/Group-08/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/student/Group-08/node_modules/mysql/lib/Connection.js:200:25)
+    at /home/student/Group-08/index.js:114:14
+    at Layer.handle [as handle_request] (/home/student/Group-08/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/student/Group-08/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/student/Group-08/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/student/Group-08/node_modules/express/lib/router/layer.js:95:5)
+    at /home/student/Group-08/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/student/Group-08/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/student/Group-08/node_modules/express/lib/router/index.js:275:10)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #2
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+Error: Error: read ETIMEDOUT
+Error: Error: Cannot enqueue Query after fatal error.
+Error: Error: Cannot enqueue Query after fatal error.
+Error: Error: Cannot enqueue Query after fatal error.
+Error: Error: Cannot enqueue Query after fatal error.
+Error: Error: Cannot enqueue Query after fatal error.
+Error: Error: Cannot enqueue Query after fatal error.
+Error: Error: Cannot enqueue Query after fatal error.
+Error: Error: Cannot enqueue Query after fatal error.
+Error: Error: Cannot enqueue Query after fatal error.
+Error: Error: Cannot enqueue Query after fatal error.
+Error: Error: Cannot enqueue Query after fatal error.
+/home/student/Group-08/index.js:115
+    if (err) throw err;
+             ^
+
+Error: Cannot enqueue Query after fatal error.
+    at Protocol._validateEnqueue (/home/student/Group-08/node_modules/mysql/lib/protocol/Protocol.js:200:16)
+    at Protocol._enqueue (/home/student/Group-08/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Connection.query (/home/student/Group-08/node_modules/mysql/lib/Connection.js:200:25)
+    at /home/student/Group-08/index.js:114:14
+    at Layer.handle [as handle_request] (/home/student/Group-08/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/student/Group-08/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/student/Group-08/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/student/Group-08/node_modules/express/lib/router/layer.js:95:5)
+    at /home/student/Group-08/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/student/Group-08/node_modules/express/lib/router/index.js:335:12)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #3
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+/home/student/Group-08/index.js:115
+    if (err) throw err;
+             ^
+
+Error: read ETIMEDOUT
+    at TCP.onread (net.js:622:25)
+    --------------------
+    at Protocol._enqueue (/home/student/Group-08/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/student/Group-08/node_modules/mysql/lib/Connection.js:200:25)
+    at /home/student/Group-08/index.js:114:14
+    at Layer.handle [as handle_request] (/home/student/Group-08/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/student/Group-08/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/student/Group-08/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/student/Group-08/node_modules/express/lib/router/layer.js:95:5)
+    at /home/student/Group-08/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/student/Group-08/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/student/Group-08/node_modules/express/lib/router/index.js:275:10)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #4
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #5
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+error: Forever detected script was killed by signal: SIGKILL

@@ -1,0 +1,125 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'pm2', '-g' ]
+2 info using npm@6.4.1
+3 info using node@v8.12.0
+4 verbose npm-session a514c14ddf089220
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 http fetch GET 200 https://registry.npmjs.org/pm2 181ms
+8 silly pacote tag manifest for pm2@latest fetched in 231ms
+9 timing stage:loadCurrentTree Completed in 495ms
+10 silly install loadIdealTree
+11 silly install cloneCurrentTreeToIdealTree
+12 timing stage:loadIdealTree:cloneCurrentTree Completed in 1ms
+13 silly install loadShrinkwrap
+14 timing stage:loadIdealTree:loadShrinkwrap Completed in 4ms
+15 silly install loadAllDepsIntoIdealTree
+16 silly resolveWithNewModule pm2@3.2.2 checking installable status
+17 http fetch GET 200 https://registry.npmjs.org/async 215ms
+18 http fetch GET 200 https://registry.npmjs.org/commander 210ms
+19 http fetch GET 200 https://registry.npmjs.org/@pm2%2fagent 243ms
+20 http fetch GET 200 https://registry.npmjs.org/@pm2%2fjs-api 240ms
+21 http fetch GET 200 https://registry.npmjs.org/cron 226ms
+22 http fetch GET 200 https://registry.npmjs.org/blessed 240ms
+23 http fetch GET 200 https://registry.npmjs.org/cli-table-redemption 246ms
+24 http fetch GET 304 https://registry.npmjs.org/chalk 270ms (from cache)
+25 http fetch GET 304 https://registry.npmjs.org/chokidar 270ms (from cache)
+26 silly pacote range manifest for async@^2.6.1 fetched in 284ms
+27 silly resolveWithNewModule async@2.6.1 checking installable status
+28 silly pacote version manifest for commander@2.15.1 fetched in 277ms
+29 silly resolveWithNewModule commander@2.15.1 checking installable status
+30 silly pacote range manifest for chalk@^2.4.1 fetched in 294ms
+31 silly resolveWithNewModule chalk@2.4.1 checking installable status
+32 silly pacote range manifest for chokidar@^2.0.4 fetched in 295ms
+33 silly resolveWithNewModule chokidar@2.0.4 checking installable status
+34 silly pacote range manifest for @pm2/agent@^0.5.11 fetched in 314ms
+35 silly resolveWithNewModule @pm2/agent@0.5.17 checking installable status
+36 silly pacote range manifest for @pm2/js-api@^0.5.15 fetched in 314ms
+37 silly resolveWithNewModule @pm2/js-api@0.5.29 checking installable status
+38 silly pacote range manifest for cron@^1.3 fetched in 300ms
+39 silly resolveWithNewModule cron@1.5.0 checking installable status
+40 silly pacote range manifest for cli-table-redemption@^1.0.0 fetched in 320ms
+41 silly resolveWithNewModule cli-table-redemption@1.0.1 checking installable status
+42 silly pacote range manifest for blessed@^0.1.81 fetched in 421ms
+43 silly resolveWithNewModule blessed@0.1.81 checking installable status
+44 http fetch GET 200 https://registry.npmjs.org/date-fns 242ms
+45 http fetch GET 200 https://registry.npmjs.org/moment 240ms
+46 http fetch GET 200 https://registry.npmjs.org/fclone 256ms
+47 http fetch GET 200 https://registry.npmjs.org/needle 149ms
+48 http fetch GET 200 https://registry.npmjs.org/pidusage 285ms
+49 silly pacote range manifest for moment@^2.22.2 fetched in 411ms
+50 silly resolveWithNewModule moment@2.22.2 checking installable status
+51 http fetch GET 304 https://registry.npmjs.org/debug 435ms (from cache)
+52 silly pacote version manifest for fclone@1.0.11 fetched in 427ms
+53 silly resolveWithNewModule fclone@1.0.11 checking installable status
+54 silly pacote range manifest for needle@^2.2.1 fetched in 319ms
+55 silly resolveWithNewModule needle@2.2.4 checking installable status
+56 http fetch GET 200 https://registry.npmjs.org/date-fns/-/date-fns-1.29.0.tgz 187ms
+57 http fetch GET 304 https://registry.npmjs.org/eventemitter2 442ms (from cache)
+58 http fetch GET 200 https://registry.npmjs.org/@pm2%2fio 753ms
+59 silly pacote range manifest for debug@^3.1 fetched in 471ms
+60 silly resolveWithNewModule debug@3.2.6 checking installable status
+61 http fetch GET 304 https://registry.npmjs.org/mkdirp 459ms (from cache)
+62 silly pacote range manifest for pidusage@^2.0.14 fetched in 344ms
+63 silly resolveWithNewModule pidusage@2.0.17 checking installable status
+64 http fetch GET 304 https://registry.npmjs.org/nssocket 372ms (from cache)
+65 silly pacote range manifest for date-fns@^1.29.0 fetched in 511ms
+66 silly resolveWithNewModule date-fns@1.29.0 checking installable status
+67 silly pacote range manifest for @pm2/io@~2.4.2 fetched in 812ms
+68 silly resolveWithNewModule @pm2/io@2.4.5 checking installable status
+69 http fetch GET 200 https://registry.npmjs.org/eventemitter2/-/eventemitter2-5.0.1.tgz 64ms
+70 silly pacote version manifest for nssocket@0.6.0 fetched in 413ms
+71 silly resolveWithNewModule nssocket@0.6.0 checking installable status
+72 http fetch GET 200 https://registry.npmjs.org/pm2-axon-rpc 93ms
+73 silly pacote version manifest for eventemitter2@5.0.1 fetched in 552ms
+74 silly resolveWithNewModule eventemitter2@5.0.1 checking installable status
+75 silly pacote range manifest for pm2-axon-rpc@^0.5.1 fetched in 123ms
+76 silly resolveWithNewModule pm2-axon-rpc@0.5.1 checking installable status
+77 http fetch GET 200 https://registry.npmjs.org/shelljs 60ms
+78 http fetch GET 200 https://registry.npmjs.org/source-map-support 42ms
+79 http fetch GET 304 https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz 104ms (from cache)
+80 http fetch GET 304 https://registry.npmjs.org/semver 87ms (from cache)
+81 http fetch GET 200 https://registry.npmjs.org/promptly 116ms
+82 silly pacote range manifest for semver@^5.5 fetched in 98ms
+83 silly resolveWithNewModule semver@5.6.0 checking installable status
+84 silly pacote range manifest for shelljs@~0.8.2 fetched in 106ms
+85 silly resolveWithNewModule shelljs@0.8.2 checking installable status
+86 silly pacote version manifest for mkdirp@0.5.1 fetched in 604ms
+87 silly resolveWithNewModule mkdirp@0.5.1 checking installable status
+88 http fetch GET 200 https://registry.npmjs.org/sprintf-js 61ms
+89 http fetch GET 200 https://registry.npmjs.org/v8-compile-cache 69ms
+90 http fetch GET 200 https://registry.npmjs.org/source-map-support/-/source-map-support-0.5.9.tgz 63ms
+91 silly pacote range manifest for promptly@^2 fetched in 165ms
+92 silly resolveWithNewModule promptly@2.2.0 checking installable status
+93 silly pacote version manifest for sprintf-js@1.1.1 fetched in 92ms
+94 silly resolveWithNewModule sprintf-js@1.1.1 checking installable status
+95 silly pacote range manifest for source-map-support@^0.5.6 fetched in 123ms
+96 silly resolveWithNewModule source-map-support@0.5.9 checking installable status
+97 http fetch GET 200 https://registry.npmjs.org/v8-compile-cache/-/v8-compile-cache-2.0.2.tgz 30ms
+98 silly pacote range manifest for v8-compile-cache@^2.0.0 fetched in 106ms
+99 silly resolveWithNewModule v8-compile-cache@2.0.2 checking installable status
+100 http fetch GET 200 https://registry.npmjs.org/vizion 104ms
+101 silly pacote range manifest for vizion@~2.0.2 fetched in 114ms
+102 silly resolveWithNewModule vizion@2.0.2 checking installable status
+103 http fetch GET 200 https://registry.npmjs.org/yamljs 126ms
+104 silly pacote range manifest for yamljs@^0.3.0 fetched in 132ms
+105 silly resolveWithNewModule yamljs@0.3.0 checking installable status
+106 http fetch GET 200 https://registry.npmjs.org/pm2-axon 391ms
+107 silly pacote version manifest for pm2-axon@3.3.0 fetched in 397ms
+108 silly resolveWithNewModule pm2-axon@3.3.0 checking installable status
+109 http fetch GET 200 https://registry.npmjs.org/pm2-multimeter 370ms
+110 silly pacote range manifest for pm2-multimeter@^0.1.2 fetched in 375ms
+111 silly resolveWithNewModule pm2-multimeter@0.1.2 checking installable status
+112 http fetch GET 200 https://registry.npmjs.org/pm2-deploy 412ms
+113 silly pacote range manifest for pm2-deploy@^0.3.9 fetched in 418ms
+114 silly resolveWithNewModule pm2-deploy@0.3.10 checking installable status
+115 http fetch GET 200 https://tgz.pm2.io/gkt-1.0.0.tgz 433ms
+116 silly pacote remote manifest for gkt@https://tgz.pm2.io/gkt-1.0.0.tgz fetched in 442ms
+117 silly resolveWithNewModule gkt@1.0.0 checking installable status
+118 http fetch GET 200 https://registry.npmjs.org/ws 36ms
+119 silly pacote range manifest for ws@^5.1.0 fetched in 50ms
+120 silly resolveWithNewModule ws@5.2.2 checking installable status
+121 timing npm Completed in 2418ms
+122 error cb() never called!
+123 error This is an error with npm itself. Please report this error at:
+124 error <https://npm.community>

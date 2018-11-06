@@ -1,0 +1,287 @@
+Server running at http://localhost:3030
+Database connected successfully.
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #1
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+check password
+undefined
+Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  username: 'Abcabc123',
+  name: 'Wonki Hwang',
+  firstname: 'Wonki',
+  lastname: 'Hwang',
+  postalcode: undefined,
+  phone: undefined,
+  email: undefined }
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #2
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+check password
+undefined
+Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  username: 'Abcabc123',
+  name: 'Wonki Hwang',
+  firstname: 'Wonki',
+  lastname: 'Hwang',
+  postalcode: undefined,
+  phone: undefined,
+  email: undefined }
+check password
+undefined
+Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  username: 'Abcabc123',
+  name: 'Wonki Hwang',
+  firstname: 'Wonki',
+  lastname: 'Hwang',
+  postalcode: undefined,
+  phone: undefined,
+  email: undefined }
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #3
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+check password
+undefined
+Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  username: 'Abcabc123',
+  name: 'Wonki Hwang',
+  firstname: 'Wonki',
+  lastname: 'Hwang',
+  postalcode: undefined,
+  phone: undefined,
+  email: undefined }
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #4
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+check password
+check password
+check password
+check password
+check password
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #5
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+check password
+Error: Error: read ECONNRESET
+Error: Error: Cannot enqueue Query after fatal error.
+Error: Error: Cannot enqueue Query after fatal error.
+Error: Error: Cannot enqueue Query after fatal error.
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #6
+Server running at http://10.10.193.142:10034
+Database connected successfully.
+check password
+check password
+check password
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #7
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'moment'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/student/Group-08/index.js:10:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #8
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'moment'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/student/Group-08/index.js:10:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #9
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'moment'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/student/Group-08/index.js:10:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #10
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'moment'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/student/Group-08/index.js:10:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #11
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'moment'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/student/Group-08/index.js:10:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #12
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'moment'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/student/Group-08/index.js:10:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #13
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'moment'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/student/Group-08/index.js:10:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #14
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'moment'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/student/Group-08/index.js:10:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #15
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'moment'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/student/Group-08/index.js:10:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #16
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'moment'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/student/Group-08/index.js:10:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #17
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'moment'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/student/Group-08/index.js:10:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+error: Forever detected script exited with code: 1

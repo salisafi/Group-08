@@ -37,3 +37,22 @@
 2018-11-06T05:27:38: PM2 log: pid=7075 msg=process killed
 2018-11-06T05:27:38: PM2 log: App [index:0] starting in -fork mode-
 2018-11-06T05:27:38: PM2 log: App [index:0] online
+2018-11-06T15:55:35: PM2 log: Stopping app:index id:0
+2018-11-06T15:55:35: PM2 log: App [index:0] exited with code [0] via signal [SIGINT]
+2018-11-06T15:55:36: PM2 log: pid=7115 msg=process killed
+2018-11-06T15:55:36: PM2 log: App [index:0] starting in -fork mode-
+2018-11-06T15:55:36: PM2 log: App [index:0] online
+2018-11-06T23:31:23: PM2 log: App [index:0] exited with code [1] via signal [SIGINT]
+2018-11-06T23:31:23: PM2 log: App [index:0] starting in -fork mode-
+2018-11-06T23:31:23: PM2 log: App [index:0] online
+2018-11-06T23:49:48: PM2 log: App [index:0] exited with code [1] via signal [SIGINT]
+2018-11-06T23:49:48: PM2 log: App [index:0] starting in -fork mode-
+2018-11-06T23:49:48: PM2 log: App [index:0] online
+2018-11-06T23:52:20: PM2 log: Stopping app:index id:0
+2018-11-06T23:52:20: PM2 log: App [index:0] exited with code [0] via signal [SIGINT]
+2018-11-06T23:52:20: PM2 log: pid=18851 msg=process killed
+2018-11-06T23:52:20: PM2 log: App [index:0] starting in -fork mode-
+2018-11-06T23:52:20: PM2 log: App [index:0] online
+2018-11-07T02:16:04: PM2 log: App [index:0] exited with code [1] via signal [SIGINT]
+2018-11-07T02:16:04: PM2 log: App [index:0] starting in -fork mode-
+2018-11-07T02:16:04: PM2 log: App [index:0] online

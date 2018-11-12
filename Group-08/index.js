@@ -5,6 +5,7 @@ const http = require('http');
 const mysql = require('mysql');
 const bodyParser = require('body-parser');
 const session = require('express-session');
+const multer = require('multer');
 const nodemailer = require('nodemailer');
 const expressLayouts = require('express-ejs-layouts');
 const moment = require('moment');
@@ -20,41 +21,34 @@ const server = http.createServer(app).listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}`);
 });
 
-var connection = mysql.createConnection({
-  database: 'prj566_182a08',
-  host: 'zenit.senecac.on.ca',
-  path: '/phpMyAdmin/',
-  user: 'prj566_182a08',
-  password: 'jaMW2249'
-});
+var dbConfig = {
+  database: 'prj566_183a15',
+  host: 'mymysql.senecacollege.ca',
+  user: 'prj566_183a15',
+  password: 'pdXT9724',
+  multipleStatements: true
+};
 
-connection.connect(function (err) {
-  if (err) {
-    console.log("Cannot establish a connection with the database.");
-    connection = reconnect(connection);
-  };
-  console.log("Database connected successfully.");
-});
-
-function reconnect(connection) {
-  console.log("Try a new connection...");
-  if (connection) connection.destroy();
-  var connection = mysql_npm.createConnection(db_config);
-  connection.connect(function (err) {
+var connection;
+function handleDisconnect() {
+  connection = mysql.createConnection(dbConfig);
+  connection.connect(function onConnect(err) {
     if (err) {
-      setTimeout(reconnect, 2000);
+      console.log('error when connecting to db:', err);
+      setTimeout(handleDisconnect, 10000);
+    }
+  });
+
+  connection.on('error', function onError(err) {
+    console.log('db error', err);
+    if (err.code == 'PROTOCOL_CONNECTION_LOST' || err.code == 'ETIMEDOUT') {
+      handleDisconnect();
     } else {
-      console.log("New connection established with the database.")
-      return connection;
+      throw err;
     }
   });
 }
-
-connection.on('error', function (err){
-  if(err.code === 'ETIMEDOUT' ){
-      connection.connect();
-  }
-});
+handleDisconnect();
 
 app.set('views', __dirname + '/Rent-emAll-Web-Portal');
 app.set('view engine', 'ejs');
@@ -122,38 +116,93 @@ app.get('/contactus', function (req, res) {
 });
 
 app.get('/list', function (req, res) {
-  var searchKeyword = req.query.searchbar;
-  var category = req.query.category;
-  var sql = "";
+  const searchKeyword = req.query.searchbar;
+  const category = req.query.category;
+  const sortby = req.query.sortby;
+  var sql = "SELECT * FROM ItemTbl WHERE name LIKE '%" + searchKeyword + "%'";
   var params = [];
 
-  if (category == 0) {
-    sql = "SELECT itemId, userId, name, description, deposit, rental_price_daily, photoURL, creationDate, item_rate from ItemTbl WHERE name LIKE '%" + searchKeyword + "%' ORDER BY creationDate DESC";
-  } else {
-    sql = "SELECT itemId, userId, name, description, deposit, rental_price_daily, photoURL, creationDate, item_rate from ItemTbl WHERE name LIKE '%" + searchKeyword + "%' AND categoryId = ? ORDER BY creationDate DESC";
-    params = [category];
-  }
-
-  connection.query(sql, params, function (err, results) {
-    if (err) throw err;
-
-    let mDates = [];
-    let fDates = [];
-
-    for (var i = 0; i < results.length; i++) {
-      mDates[i] = moment(results[i].creationDate);
-      fDates[i] = mDates[i].format('LL');
+  if (!searchKeyword)
+    res.redirect('/');
+  else {
+    if (category == 0) {
+      sql += " ORDER BY creationDate DESC";
+    } else {
+      sql += " AND categoryId = ? ORDER BY creationDate DESC";
+      params = [category];
     }
 
-    res.render('itemlisting', {
-      items: results,
-      postedDates: fDates
+    connection.query(sql + ";SELECT rating FROM ReviewTbl", params, function (err, results) {
+      if (err) throw err;
+
+      let mDates = [];
+      let fDates = [];
+      var averageRate = 0;
+
+      for (var i = 0; i < results[0].length; i++) {
+        mDates[i] = moment(results[0][i].creationDate);
+        fDates[i] = mDates[i].format('LL');
+      }
+
+      for (var i = 0; i < results[1].length; i++)
+        averageRate += results[1][i].rating;
+
+      averageRate /= results[1].length;
+
+      res.render('itemlisting', {
+        items: results[0],
+        postedDates: fDates,
+        averageRate: averageRate
+      });
     });
-  });
+  }
 });
 
-app.get('/item', function (req, res) {
-  res.render('item');
+app.get("/item/:id", function (req, res) {
+  var itemId = req.params.id;
+
+  connection.query("SELECT * FROM ItemTbl WHERE itemId = ?; SELECT * FROM ReviewTbl WHERE itemId = ?", [itemId, itemId],
+    function (err, results) {
+      if (err) throw err;
+
+      var itemPostedDate = moment(results[0][0].creationDate);
+      var fItemPostedDate = itemPostedDate.format('LL');
+
+      var reviewPostedDate = [];
+      var fReviewPostedDate = [];
+      var averageRate = 0;
+
+      for (var i = 0; i < results[1].length; i++) {
+        reviewPostedDate[i] = moment(results[1][i].creationDate);
+        fReviewPostedDate[i] = reviewPostedDate[i].format('LL');
+        averageRate += results[1][i].rating;
+      }
+
+      averageRate /= results[1].length;
+
+      function getUser(username, callback) {
+        connection.query("SELECT * FROM UserTbl WHERE userId = ?;", [results[0][0].userId],
+          function (err, results) {
+            if (err)
+              callback(err, null);
+            else
+              callback(null, results[0]);
+          });
+      }
+
+      getUser(results[0][0].userId, function (err, data) {
+        if (err) throw err;
+
+        res.render('item', {
+          item: results[0][0],
+          itemPostedDate: fItemPostedDate,
+          user: data,
+          review: results[1],
+          reviewPostedDate: fReviewPostedDate,
+          averageRate: averageRate
+        });
+      });
+    });
 });
 
 app.get('/map', function (req, res) {
@@ -176,6 +225,27 @@ app.get('/profile', function (req, res) {
     res.render('user-profile', { sess: sess });
   }
 });
+
+app.get('/lenderpage', function (req, res) {
+  var sess = req.session;
+  if (!sess.username) {
+    res.render('main');
+  } else {
+    connection.query("SELECT * FROM ItemTbl WHERE userId = ?", [sess.userid], function (err, results) {
+      if (err) throw err;
+      res.render('lenders-page', {
+        sess: sess,
+        items: results,
+        moment: moment
+      });
+    });
+  }
+});
+
+// app.get('/lenderpage/:id', function (req, res) {
+//   var sess = req.session;
+//   res.render('lenders-page', { sess: sess });
+// });
 
 app.get('/cart', function (req, res) {
   res.render('cart');
@@ -258,24 +328,91 @@ app.post('/login', function (req, res) {
   });
 });
 
-app.post('/forgotuser', function (req, res) {
+// Nodemailer Transporter
+var transporter = nodemailer.createTransport({
+  host: 'smtp.gmail.com',
+  port: 465,
+  secure: true,
+  auth: {
+    user: 'rentemallapp@gmail.com',
+    pass: 'xfchjinuvfpucgcb'
+  }
+});
 
+app.post('/forgotuser', function (req, res) {
+  var email = req.body.email;
+
+  connection.query('SELECT * FROM UserTbl WHERE emailAddress = ?', [email], function (err, result) {
+    if (err) {
+      console.log('Error: ' + err);
+    } else {
+      if (result.length === 0) {
+        res.render('error', { errormessage: 'Email address does not exist.' });
+      } else {
+        var mailOpts = {
+          from: 'rentemallapp@gmail.com',
+          to: email,
+          subject: 'RentemAll Username Request',
+          text: `Hi ${result[0].firstName},\n\nYour username is "${result[0].userName}"`
+        };
+        transporter.sendMail(mailOpts, function (error, response) {
+          if (error) {
+            res.end("Email send failed");
+          } else {
+            res.redirect('/');
+          }
+        });
+      }
+    }
+  });
 });
 
 app.post('/forgotpass', function (req, res) {
+  var username = req.body.username;
+  var email = req.body.email;
 
+  connection.query('SELECT * FROM UserTbl WHERE emailAddress = ? AND BINARY userName = ?', [email, username], function (err, result) {
+    if (err) {
+      console.log('Error: ' + err);
+    } else {
+      if (result.length === 0) {
+        res.render('error', { errormessage: 'Invalid email and/or username.' });
+      } else {
+        var newPW = randomPassword();
+        console.log('your new password is ' + newPW);
+
+        var key = 'myKey';
+        var cipher = crypto.createCipher('aes192', key);
+        cipher.update(newPW, 'utf8', 'base64');
+        var cipheredOutput = cipher.final('base64');
+
+        connection.query('UPDATE UserTbl SET password = ? WHERE userName = ?', [cipheredOutput, username], function (err, result) {
+          if (err) {
+            console.log('Error: ' + err);
+          } else {
+            res.redirect('/');
+          }
+        });
+
+        var mailOpts = {
+          from: 'rentemallapp@gmail.com',
+          to: email,
+          subject: 'RentemAll Password Reset Request',
+          text: `Hi ${result[0].firstName},\n\nYour new password is "${newPW}". After login, Please go to user profile page and change your password.`
+        };
+        transporter.sendMail(mailOpts, function (error, response) {
+          if (error) {
+            res.end("Email send failed");
+          } else {
+            res.redirect('/');
+          }
+        });
+      }
+    }
+  });
 });
 
 app.post('/sendemail', function (req, res) {
-  var transporter = nodemailer.createTransport({
-    host: 'smtp.gmail.com',
-    port: 465,
-    secure: true,
-    auth: {
-      user: 'rentemallapp@gmail.com',
-      pass: 'xfchjinuvfpucgcb'
-    }
-  });
   var mailOpts = {
     from: `${req.body.contactName} <${req.body.contaceEmail}>`,
     to: 'rentemallapp@gmail.com',
@@ -291,27 +428,32 @@ app.post('/sendemail', function (req, res) {
   });
 });
 
-app.post('/postItem', function (req, res) {
+/**************** Post Item ****************/
+var upload = multer({
+  storage: multer.diskStorage({
+    destination: function (req, file, cb) {
+      cb(null, './Rent-emAll-Web-Portal/uploads/images/');
+    },
+    filename: function (req, file, cb) {
+      cb(null, Date.now() + "-" + file.originalname);
+    }
+  })
+});
+app.post('/postItem', upload.single('photoURL'), function (req, res) {
   var sess = req.session;
   var body = req.body;
+  var filePath = '../uploads/images/' + req.file.filename;
 
-  res.write('*** below is a collecting data test result ***\n\n');
-  res.write(sess.userid + '\n');
-  res.write(body.category + '\n');
-  res.write(body.name + '\n');
-  res.write(body.description + '\n');
-  res.write(body.purchasedYear + '\n');
-  res.write(body.rentPerDay + '\n');
-  res.write(body.depositPrice + '\n');
-  res.write(sess.postalcode + '\n');
-  res.write(sess.prov + '\n');
-  res.end();
-
-  // connection.query("INSERT INTO testTbl(name, description) VALUES (?,?)", [
-  //   body.name, body.description
-  // ], function () {
-
-  // });
+  connection.query("INSERT INTO ItemTbl(userId, categoryId, name, description, purchasedYear, rental_price_daily, deposit, postalCode, province, photoURL) VALUES (?,?,?,?,?,?,?,?,?,?)", [
+    sess.userid, body.category, body.name, body.description, body.purchasedYear, body.rentPerDay, body.depositPrice, sess.postalcode, sess.prov, filePath
+  ], function (err, result) {
+    if (err) {
+      res.render('error', { errormessage: 'Unable to post your item.' });
+    } else {
+      console.log(result.insertId);
+      res.redirect('/item/' + result.insertId);
+    }
+  });
 });
 
 app.post('/profile', function (req, res) {
@@ -390,4 +532,20 @@ function verifyProvince(postalcode) {
   else province = null;
 
   return province;
+}
+
+/*************** Random password generator **************/
+function randomPassword() {
+  var randomPW = "";
+  var possibleUpper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  var possibleLower = "abcdefghijklmnopqrstuvwxyz";
+  var possibleNum = "0123456789";
+
+  for (var i = 0; i < 4; i++) {
+    randomPW += possibleUpper.charAt(Math.floor(Math.random() * possibleUpper.length));
+    randomPW += possibleNum.charAt(Math.floor(Math.random() * possibleNum.length));
+    randomPW += possibleLower.charAt(Math.floor(Math.random() * possibleLower.length));
+  }
+
+  return randomPW;
 }

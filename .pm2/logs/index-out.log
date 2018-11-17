@@ -201,3 +201,96 @@ RowDataPacket {
 Server running at http://10.10.193.142:10034
 Server running at http://10.10.193.142:10034
 Server running at http://10.10.193.142:10034
+Error: Error: read ETIMEDOUT
+Error: Error: read ETIMEDOUT
+Error: Error: Cannot enqueue Query after fatal error.
+Error: Error: Cannot enqueue Query after fatal error.
+Error: Error: Cannot enqueue Query after fatal error.
+Error: Error: Cannot enqueue Query after fatal error.
+Error: Error: Cannot enqueue Query after fatal error.
+Server running at http://10.10.193.142:10034
+Server running at http://10.10.193.142:10034
+24
+RowDataPacket {
+  itemId: 24,
+  userId: 24,
+  categoryId: 5,
+  name: 'Canadian Olympic Team Collection',
+  description: 'Classic zip-up hooded sweater with bold "Canada" embroidered detail.\r\nAttached hood\r\nLong sleeves\r\nBanded cuffs\r\nFront zip closure\r\nFront split pouch pocket\r\nFront embroidered detail\r\nCanadian flag detail on sleeve',
+  madeYear: null,
+  purchasedYear: 2013,
+  purchasedPrice: 4.99,
+  deposit: 25,
+  rental_price_daily: 4,
+  postalCode: 'L4G4H6',
+  province: 'ON',
+  photoURL: '../uploads/images/1542464166454-ItemPosting.png',
+  creationDate: 2018-11-17T09:16:08.000Z }
+25
+26
+RowDataPacket {
+  itemId: 26,
+  userId: 24,
+  categoryId: 6,
+  name: 'Styled Faux Shearling-Lined Trucker',
+  description: 'This denim trucker jacket is a seasonal update with warm faux shearling cuffs and collar, and a soft quilted lining in the sleeves.\r\nSpread collar\r\nLong sleeves\r\nButtoned barrel cuffs\r\nButton front\r\nChest buttoned flap pockets',
+  madeYear: null,
+  purchasedYear: 2017,
+  purchasedPrice: 4.99,
+  deposit: 140,
+  rental_price_daily: 10,
+  postalCode: 'L4G4H6',
+  province: 'ON',
+  photoURL: '../uploads/images/1542464392896-LadyClothing.png',
+  creationDate: 2018-11-17T09:19:57.000Z }
+27
+RowDataPacket {
+  itemId: 26,
+  userId: 24,
+  categoryId: 6,
+  name: 'Styled Faux Shearling-Lined Trucker',
+  description: 'This denim trucker jacket is a seasonal update with warm faux shearling cuffs and collar, and a soft quilted lining in the sleeves.\r\nSpread collar\r\nLong sleeves\r\nButtoned barrel cuffs\r\nButton front\r\nChest buttoned flap pockets',
+  madeYear: null,
+  purchasedYear: 2017,
+  purchasedPrice: 4.99,
+  deposit: 140,
+  rental_price_daily: 10,
+  postalCode: 'L4G4H6',
+  province: 'ON',
+  photoURL: '../uploads/images/1542464392896-LadyClothing.png',
+  creationDate: 2018-11-17T09:19:57.000Z }
+RowDataPacket {
+  itemId: 26,
+  userId: 24,
+  categoryId: 6,
+  name: 'Styled Faux Shearling-Lined Trucker',
+  description: 'This denim trucker jacket is a seasonal update with warm faux shearling cuffs and collar, and a soft quilted lining in the sleeves.\r\nSpread collar\r\nLong sleeves\r\nButtoned barrel cuffs\r\nButton front\r\nChest buttoned flap pockets',
+  madeYear: null,
+  purchasedYear: 2017,
+  purchasedPrice: 4.99,
+  deposit: 140,
+  rental_price_daily: 10,
+  postalCode: 'L4G4H6',
+  province: 'ON',
+  photoURL: '../uploads/images/1542464392896-LadyClothing.png',
+  creationDate: 2018-11-17T09:19:57.000Z }
+26
+26
+RowDataPacket {
+  itemId: 26,
+  userId: 24,
+  categoryId: 6,
+  name: 'Styled Faux Shearling-Lined Trucker',
+  description: 'This denim trucker jacket is a seasonal update with warm faux shearling cuffs and collar, and a soft quilted lining in the sleeves.\r\nSpread collar\r\nLong sleeves\r\nButtoned barrel cuffs\r\nButton front\r\nChest buttoned flap pockets',
+  madeYear: null,
+  purchasedYear: 2017,
+  purchasedPrice: 4.99,
+  deposit: 140,
+  rental_price_daily: 10,
+  postalCode: 'L4G4H6',
+  province: 'ON',
+  photoURL: '../uploads/images/1542467058270-LadyClothing.png',
+  creationDate: 2018-11-17T09:19:57.000Z }
+26
+26
+28

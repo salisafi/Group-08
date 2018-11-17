@@ -18,7 +18,7 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1542044286,,"wq"
+|2,0,1542451749,,"wq"
 :q!
 |2,0,1542040837,,"q!"
 :q
@@ -412,230 +412,269 @@ $
 |3,0,36,0,1,0,1542036069,"x"
 
 # File marks:
-'0  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
-|4,48,1,2,1542044286,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
-'1  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
-|4,49,1,2,1542043993,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
-'2  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
-|4,50,1,2,1542043006,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
-'3  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
-|4,51,1,2,1542043006,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
-'4  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
-|4,52,1,2,1542042891,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
-'5  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
-|4,53,1,2,1542042891,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
-'6  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
-|4,54,1,2,1542042891,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
-'7  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
-|4,55,1,2,1542042891,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
-'8  1  4  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
-|4,56,1,4,1542042503,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
-'9  1  4  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
-|4,57,1,4,1542042503,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+'0  188  123  ~/Group-08/Rent-emAll-Web-Portal/faq.ejs
+|4,48,188,123,1542451749,"~/Group-08/Rent-emAll-Web-Portal/faq.ejs"
+'1  186  54  ~/Group-08/Rent-emAll-Web-Portal/faq.ejs
+|4,49,186,54,1542451531,"~/Group-08/Rent-emAll-Web-Portal/faq.ejs"
+'2  186  54  ~/Group-08/Rent-emAll-Web-Portal/faq.ejs
+|4,50,186,54,1542451531,"~/Group-08/Rent-emAll-Web-Portal/faq.ejs"
+'3  3  2  ~/Group-08/Rent-emAll-Web-Portal/faq.ejs
+|4,51,3,2,1542451203,"~/Group-08/Rent-emAll-Web-Portal/faq.ejs"
+'4  3  2  ~/Group-08/Rent-emAll-Web-Portal/faq.ejs
+|4,52,3,2,1542451203,"~/Group-08/Rent-emAll-Web-Portal/faq.ejs"
+'5  3  2  ~/Group-08/Rent-emAll-Web-Portal/faq.ejs
+|4,53,3,2,1542451203,"~/Group-08/Rent-emAll-Web-Portal/faq.ejs"
+'6  3  2  ~/Group-08/Rent-emAll-Web-Portal/faq.ejs
+|4,54,3,2,1542451203,"~/Group-08/Rent-emAll-Web-Portal/faq.ejs"
+'7  184  7  ~/Group-08/Rent-emAll-Web-Portal/faq.ejs
+|4,55,184,7,1542451123,"~/Group-08/Rent-emAll-Web-Portal/faq.ejs"
+'8  184  7  ~/Group-08/Rent-emAll-Web-Portal/faq.ejs
+|4,56,184,7,1542451123,"~/Group-08/Rent-emAll-Web-Portal/faq.ejs"
+'9  184  7  ~/Group-08/Rent-emAll-Web-Portal/faq.ejs
+|4,57,184,7,1542451123,"~/Group-08/Rent-emAll-Web-Portal/faq.ejs"
 
 # Jumplist (newest first):
+-'  188  123  ~/Group-08/Rent-emAll-Web-Portal/faq.ejs
+|4,39,188,123,1542451749,"~/Group-08/Rent-emAll-Web-Portal/faq.ejs"
+-'  186  54  ~/Group-08/Rent-emAll-Web-Portal/faq.ejs
+|4,39,186,54,1542451634,"~/Group-08/Rent-emAll-Web-Portal/faq.ejs"
+-'  186  54  ~/Group-08/Rent-emAll-Web-Portal/faq.ejs
+|4,39,186,54,1542451531,"~/Group-08/Rent-emAll-Web-Portal/faq.ejs"
+-'  3  2  ~/Group-08/Rent-emAll-Web-Portal/faq.ejs
+|4,39,3,2,1542451237,"~/Group-08/Rent-emAll-Web-Portal/faq.ejs"
+-'  3  2  ~/Group-08/Rent-emAll-Web-Portal/faq.ejs
+|4,39,3,2,1542451237,"~/Group-08/Rent-emAll-Web-Portal/faq.ejs"
+-'  3  2  ~/Group-08/Rent-emAll-Web-Portal/faq.ejs
+|4,39,3,2,1542451203,"~/Group-08/Rent-emAll-Web-Portal/faq.ejs"
+-'  184  7  ~/Group-08/Rent-emAll-Web-Portal/faq.ejs
+|4,39,184,7,1542451135,"~/Group-08/Rent-emAll-Web-Portal/faq.ejs"
+-'  184  7  ~/Group-08/Rent-emAll-Web-Portal/faq.ejs
+|4,39,184,7,1542451135,"~/Group-08/Rent-emAll-Web-Portal/faq.ejs"
+-'  184  7  ~/Group-08/Rent-emAll-Web-Portal/faq.ejs
+|4,39,184,7,1542451135,"~/Group-08/Rent-emAll-Web-Portal/faq.ejs"
+-'  184  7  ~/Group-08/Rent-emAll-Web-Portal/faq.ejs
+|4,39,184,7,1542451123,"~/Group-08/Rent-emAll-Web-Portal/faq.ejs"
+-'  28  165  ~/Group-08/Rent-emAll-Web-Portal/faq.ejs
+|4,39,28,165,1542450987,"~/Group-08/Rent-emAll-Web-Portal/faq.ejs"
+-'  28  165  ~/Group-08/Rent-emAll-Web-Portal/faq.ejs
+|4,39,28,165,1542450987,"~/Group-08/Rent-emAll-Web-Portal/faq.ejs"
+-'  28  165  ~/Group-08/Rent-emAll-Web-Portal/faq.ejs
+|4,39,28,165,1542450987,"~/Group-08/Rent-emAll-Web-Portal/faq.ejs"
+-'  28  165  ~/Group-08/Rent-emAll-Web-Portal/faq.ejs
+|4,39,28,165,1542450987,"~/Group-08/Rent-emAll-Web-Portal/faq.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542044286,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542044286,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542044286,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542044286,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542044286,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542044286,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542044286,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542044286,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542044286,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542044286,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542044286,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542044286,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542044286,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542044286,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542044286,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
 -'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
 |4,39,1,2,1542044286,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
 -'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
 |4,39,1,2,1542043993,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
 -'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542043993,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542043993,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542043993,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542043993,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542043993,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542043993,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542043993,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542043993,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542043993,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542043993,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542043993,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542043993,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542043993,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542043993,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542043993,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
 |4,39,1,2,1542043006,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542043006,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542043006,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542043006,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542043006,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542043006,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542043006,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542043006,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542043006,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542043006,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542043006,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542043006,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542043006,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542043006,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542043006,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542043006,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542042891,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542042891,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542042891,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542042891,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542042891,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542042891,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542042891,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542042891,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542042891,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542042891,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542042891,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542042891,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542042891,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542042891,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542042891,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
 -'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
 |4,39,1,2,1542042891,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
 -'  1  4  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
 |4,39,1,4,1542042503,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  4  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,4,1542042503,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  4  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,4,1542042503,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  4  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,4,1542042503,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  4  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,4,1542042503,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  4  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,4,1542042503,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  4  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,4,1542042503,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  4  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,4,1542042503,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  4  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,4,1542042503,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  4  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,4,1542042503,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  4  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,4,1542042503,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  4  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,4,1542042503,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  4  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,4,1542042503,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  4  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,4,1542042503,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  4  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,4,1542042503,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  4  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,4,1542042503,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
 -'  119  8  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
 |4,39,119,8,1542041161,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
--'  1  0  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
-|4,39,1,0,1542041147,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
--'  31  51  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
-|4,39,31,51,1542040837,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
--'  31  51  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
-|4,39,31,51,1542040153,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
--'  1  0  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
-|4,39,1,0,1542040096,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
--'  1  0  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
-|4,39,1,0,1542040096,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
--'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
-|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  119  8  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,119,8,1542041161,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  119  8  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,119,8,1542041161,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  119  8  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,119,8,1542041161,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  119  8  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,119,8,1542041161,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  119  8  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,119,8,1542041161,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
 
 # History of marks within files (newest to oldest):
+
+> ~/Group-08/Rent-emAll-Web-Portal/faq.ejs
+	*	1542451747	0
+	"	188	123
+	^	188	124
+	.	188	123
+	+	166	59
+	+	149	15
+	+	124	52
+	+	165	68
+	+	148	98
+	+	123	95
+	+	98	16
+	+	80	68
+	+	54	95
+	+	35	19
+	+	28	7
+	+	28	159
+	+	28	9
+	+	28	165
+	+	35	62
+	+	54	59
+	+	80	59
+	+	98	59
+	+	123	59
+	+	148	62
+	+	165	59
+	+	186	87
+	+	188	122
+	+	2	40
+	+	35	63
+	+	54	60
+	+	80	60
+	+	98	60
+	+	123	60
+	+	148	62
+	+	165	60
+	+	186	49
+	+	188	123
 
 > ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
 	*	1542044284	0
@@ -716,26 +755,6 @@ $
 	+	336	25
 	+	340	0
 	+	339	0
-
-> ~/Group-08/Rent-emAll-Web-Portal/faq.ejs
-	*	1542039390	0
-	"	28	165
-	^	28	166
-	.	28	165
-	+	166	59
-	+	149	15
-	+	124	52
-	+	165	68
-	+	148	98
-	+	123	95
-	+	98	16
-	+	80	68
-	+	54	95
-	+	35	19
-	+	28	7
-	+	28	159
-	+	28	9
-	+	28	165
 
 > ~/Group-08/Rent-emAll-Web-Portal/shared/header.ejs
 	*	1542038239	0

@@ -117,48 +117,102 @@ app.get('/contactus', function (req, res) {
 
 app.get('/list', function (req, res) {
   const searchKeyword = req.query.searchbar;
-  const category = req.query.category;
+  // const category = req.query.category;
   const sortby = req.query.sortby;
-  var sql = "SELECT * FROM ItemTbl WHERE name LIKE '%" + searchKeyword + "%'";
+  var sql = "SELECT * FROM ItemTbl WHERE name LIKE '%" + searchKeyword + "%' ORDER BY creationDate DESC";
   var params = [];
 
   if (!searchKeyword)
-    res.redirect('/');
+    res.redirect('back');
   else {
-    if (category == 0) {
-      sql += " ORDER BY creationDate DESC";
-    } else {
-      sql += " AND categoryId = ? ORDER BY creationDate DESC";
-      params = [category];
-    }
+    // if (category == 0) {
+    //   sql += " ORDER BY creationDate DESC";
+    // } else {
+    //   sql += " AND categoryId = ? ORDER BY creationDate DESC";
+    //   params = [category];
+    // }
 
-    connection.query(sql + ";SELECT rating FROM ReviewTbl", params, function (err, results) {
+    connection.query(sql + ";SELECT itemId, rating FROM ReviewTbl", params, function (err, results) {
       if (err) throw err;
 
       let mDates = [];
       let fDates = [];
-      var averageRate = 0;
 
       for (var i = 0; i < results[0].length; i++) {
         mDates[i] = moment(results[0][i].creationDate);
         fDates[i] = mDates[i].format('LL');
       }
 
-      for (var i = 0; i < results[1].length; i++)
-        averageRate += results[1][i].rating;
+      var rates = [];
+      var averageRate = 0;
 
-      averageRate /= results[1].length;
+      for (var i = 0; i < results[0].length; i++) {
+        var count = 0;
+        averageRate = 0;
+
+        for (var j = 0; j < results[1].length; j++) {
+          if (results[1][j].itemId == results[0][i].itemId) {
+            averageRate += results[1][j].rating;
+            count++;
+          }
+        }
+        averageRate /= count;
+        if (averageRate)
+          rates.push(averageRate);
+      }
 
       res.render('itemlisting', {
         items: results[0],
         postedDates: fDates,
-        averageRate: averageRate
+        rates: rates
       });
     });
   }
 });
 
+app.get('/list/:id', function (req, res) {
+  const categoryId = req.params.id;
+
+  connection.query("SELECT * FROM ItemTbl WHERE categoryId = ? ORDER BY creationDate DESC", [categoryId], function (err, results) {
+    if (err) throw err;
+
+    let mDates = [];
+    let fDates = [];
+
+    for (var i = 0; i < results.length; i++) {
+      mDates[i] = moment(results[i].creationDate);
+      fDates[i] = mDates[i].format('LL');
+    }
+
+    var rates = [];
+    var averageRate = 0;
+
+    for (var i = 0; i < results.length; i++) {
+      var count = 0;
+      averageRate = 0;
+
+      /*************  Rating not working *************/
+      for (var j = 0; j < results.length; j++) {
+        if (results[j].itemId == results[i].itemId) {
+          averageRate += results[j].rating;
+          count++;
+        }
+      }
+      averageRate /= count;
+      if (averageRate)
+        rates.push(averageRate);
+    }
+
+    res.render('itemlisting', {
+      items: results,
+      postedDates: fDates,
+      rates: rates
+    });
+  });
+});
+
 app.get("/item/:id", function (req, res) {
+  const sess = req.session;
   var itemId = req.params.id;
 
   connection.query("SELECT * FROM ItemTbl WHERE itemId = ?; SELECT * FROM ReviewTbl WHERE itemId = ?", [itemId, itemId],
@@ -172,13 +226,15 @@ app.get("/item/:id", function (req, res) {
       var fReviewPostedDate = [];
       var averageRate = 0;
 
-      for (var i = 0; i < results[1].length; i++) {
-        reviewPostedDate[i] = moment(results[1][i].creationDate);
-        fReviewPostedDate[i] = reviewPostedDate[i].format('LL');
-        averageRate += results[1][i].rating;
-      }
+      if (results[1].length > 0) {
+        for (var i = 0; i < results[1].length; i++) {
+          reviewPostedDate[i] = moment(results[1][i].creationDate);
+          fReviewPostedDate[i] = reviewPostedDate[i].format('LL');
+          averageRate += results[1][i].rating;
+        }
 
-      averageRate /= results[1].length;
+        averageRate /= results[1].length;
+      }
 
       function getUser(username, callback) {
         connection.query("SELECT * FROM UserTbl WHERE userId = ?;", [results[0][0].userId],
@@ -199,7 +255,8 @@ app.get("/item/:id", function (req, res) {
           user: data,
           review: results[1],
           reviewPostedDate: fReviewPostedDate,
-          averageRate: averageRate
+          averageRate: averageRate,
+          sess: sess
         });
       });
     });
@@ -212,6 +269,22 @@ app.get('/map', function (req, res) {
 app.get('/post', function (req, res) {
   if (req.session.username) {
     res.render('post-item');
+  } else {
+    res.redirect('/');
+  }
+});
+
+app.get('/edit/:id', function (req, res) {
+  if (req.session.username) {
+    var itemId = req.params.id;
+
+    connection.query("SELECT * FROM ItemTbl WHERE itemId = ?;", [itemId],
+      function (err, result) {
+        if (err) throw err;
+
+        console.log(result[0]);
+        res.render('edit-item', { item: result[0] });
+      });
   } else {
     res.redirect('/');
   }
@@ -454,6 +527,42 @@ app.post('/postItem', upload.single('photoURL'), function (req, res) {
       res.redirect('/item/' + result.insertId);
     }
   });
+});
+
+app.post('/editItem', upload.single('photoURL'), function (req, res) {
+  var sess = req.session;
+  var body = req.body;
+  var filePath = '../uploads/images/' + req.file.filename;
+  console.log(body.itemId);
+
+  connection.query("UPDATE ItemTbl SET categoryId = ?, name = ?, description = ?, purchasedYear = ?, rental_price_daily = ?, deposit = ?, postalCode = ?, province = ?, photoURL = ? WHERE itemId =?", [
+    body.category, body.name, body.description, body.purchasedYear, body.rentPerDay, body.depositPrice, sess.postalcode, sess.prov, filePath, body.itemId
+  ], function (err, result) {
+    if (err) {
+      res.render('error', { errormessage: 'Unable to update your item.' });
+    } else {
+      console.log(body.itemId);
+      res.redirect('/item/' + body.itemId);
+    }
+  });
+});
+
+app.post('/deleteItem', function (req, res) {
+  var sess = req.session;
+  var body = req.body;
+  if (sess) {
+    if (sess.userid == body.userId) {
+      connection.query("DELETE FROM ItemTbl WHERE itemId = ?", [body.itemId], function (err, result) {
+        if (err) {
+          res.render('error', { errormessage: 'Unable to delete your item.' });
+        } else {
+          res.redirect('/');
+        }
+      });
+    }
+  } else {
+    res.redirect('/lenderpage');
+  }
 });
 
 app.post('/profile', function (req, res) {

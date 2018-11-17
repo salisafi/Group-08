@@ -100,3 +100,104 @@ Error: Error: read ETIMEDOUT
 Error: Error: read ETIMEDOUT
 Error: Error: read ETIMEDOUT
 Server running at http://10.10.193.142:10034
+Server running at http://10.10.193.142:10034
+Server running at http://10.10.193.142:10034
+17
+18
+19
+your new password is B4xZ8gG7bA4q
+Server running at http://10.10.193.142:10034
+Error: Error: read ETIMEDOUT
+Server running at http://10.10.193.142:10034
+Server running at http://10.10.193.142:10034
+Server running at http://10.10.193.142:10034
+Server running at http://10.10.193.142:10034
+Server running at http://10.10.193.142:10034
+Server running at http://10.10.193.142:10034
+Server running at http://10.10.193.142:10034
+Server running at http://10.10.193.142:10034
+RowDataPacket {
+  itemId: 6,
+  userId: 5,
+  categoryId: 4,
+  name: 'Samsung 32" LED TV (Available)',
+  description: 'Hello. I am renting out my Samsung 32-inch smart TV.\r\nVery good condition.\r\nContact me if interested.\r\nThank you.',
+  madeYear: null,
+  purchasedYear: 2017,
+  purchasedPrice: 5,
+  deposit: 300,
+  rental_price_daily: 10,
+  postalCode: 'M8X2W3',
+  province: 'ON',
+  photoURL: '../uploads/images/1542345108172-samsungLEDTV.jpg',
+  creationDate: 2018-11-10T17:22:47.000Z }
+Server running at http://10.10.193.142:10034
+RowDataPacket {
+  itemId: 6,
+  userId: 5,
+  categoryId: 4,
+  name: 'Samsung 32" LED TV (Available)',
+  description: 'Hello. I am renting out my Samsung 32-inch smart TV.\r\nVery good condition.\r\nContact me if interested.\r\nThank you.',
+  madeYear: null,
+  purchasedYear: 2017,
+  purchasedPrice: 5,
+  deposit: 300,
+  rental_price_daily: 10,
+  postalCode: 'M8X2W3',
+  province: 'ON',
+  photoURL: '../uploads/images/1542345108172-samsungLEDTV.jpg',
+  creationDate: 2018-11-10T17:22:47.000Z }
+Server running at http://10.10.193.142:10034
+RowDataPacket {
+  itemId: 6,
+  userId: 5,
+  categoryId: 4,
+  name: 'Samsung 32" LED TV (Available)',
+  description: 'Hello. I am renting out my Samsung 32-inch smart TV.\r\nVery good condition.\r\nContact me if interested.\r\nThank you.',
+  madeYear: null,
+  purchasedYear: 2017,
+  purchasedPrice: 5,
+  deposit: 300,
+  rental_price_daily: 10,
+  postalCode: 'M8X2W3',
+  province: 'ON',
+  photoURL: '../uploads/images/1542345108172-samsungLEDTV.jpg',
+  creationDate: 2018-11-10T17:22:47.000Z }
+Server running at http://10.10.193.142:10034
+Server running at http://10.10.193.142:10034
+Server running at http://10.10.193.142:10034
+Server running at http://10.10.193.142:10034
+Server running at http://10.10.193.142:10034
+RowDataPacket {
+  itemId: 6,
+  userId: 5,
+  categoryId: 4,
+  name: 'Samsung 32" LED TV (Available)',
+  description: 'Hello. I am renting out my Samsung 32-inch smart TV.\r\nVery good condition.\r\nContact me if interested.\r\nThank you.',
+  madeYear: null,
+  purchasedYear: 2017,
+  purchasedPrice: 5,
+  deposit: 300,
+  rental_price_daily: 10,
+  postalCode: 'M8X2W3',
+  province: 'ON',
+  photoURL: '../uploads/images/1542345108172-samsungLEDTV.jpg',
+  creationDate: 2018-11-10T17:22:47.000Z }
+RowDataPacket {
+  itemId: 6,
+  userId: 5,
+  categoryId: 4,
+  name: 'Samsung 32" LED TV (Available)',
+  description: 'Hello. I am renting out my Samsung 32-inch smart TV.\r\nVery good condition.\r\nContact me if interested.\r\nThank you.',
+  madeYear: null,
+  purchasedYear: 2017,
+  purchasedPrice: 5,
+  deposit: 300,
+  rental_price_daily: 10,
+  postalCode: 'M8X2W3',
+  province: 'ON',
+  photoURL: '../uploads/images/1542345108172-samsungLEDTV.jpg',
+  creationDate: 2018-11-10T17:22:47.000Z }
+Server running at http://10.10.193.142:10034
+Server running at http://10.10.193.142:10034
+Server running at http://10.10.193.142:10034

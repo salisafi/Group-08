@@ -283,3 +283,483 @@ Error: read ETIMEDOUT
     at /home/student/Group-08/node_modules/express/lib/router/index.js:281:22
     at Function.process_params (/home/student/Group-08/node_modules/express/lib/router/index.js:335:12)
     at next (/home/student/Group-08/node_modules/express/lib/router/index.js:275:10)
+ReferenceError: /home/student/Group-08/Rent-emAll-Web-Portal/main.ejs:33
+    31|             <% if(sess.name && sess.username){ %>
+    32|             <h3 class="text-danger">Hello,
+ >> 33|                 <%= name %> (
+    34|                 <%= username %>)!</h3>
+    35|             <br />
+    36|             <p>Welcome to the world of rent!
+
+name is not defined
+    at eval (eval at compile (/home/student/Group-08/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:14:26)
+    at returnedFn (/home/student/Group-08/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/home/student/Group-08/node_modules/ejs/lib/ejs.js:251:36)
+    at View.exports.renderFile [as engine] (/home/student/Group-08/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/home/student/Group-08/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/student/Group-08/node_modules/express/lib/application.js:640:10)
+    at Function.render (/home/student/Group-08/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/home/student/Group-08/node_modules/express/lib/response.js:1008:7)
+    at ServerResponse.res.render (/home/student/Group-08/node_modules/express-ejs-layouts/lib/express-layouts.js:77:18)
+    at /home/student/Group-08/index.js:94:9
+ReferenceError: /home/student/Group-08/Rent-emAll-Web-Portal/main.ejs:33
+    31|             <% if(sess.name && sess.username){ %>
+    32|             <h3 class="text-danger">Hello,
+ >> 33|                 <%= name %> (
+    34|                 <%= username %>)!</h3>
+    35|             <br />
+    36|             <p>Welcome to the world of rent!
+
+name is not defined
+    at eval (eval at compile (/home/student/Group-08/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:14:26)
+    at returnedFn (/home/student/Group-08/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/home/student/Group-08/node_modules/ejs/lib/ejs.js:251:36)
+    at View.exports.renderFile [as engine] (/home/student/Group-08/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/home/student/Group-08/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/student/Group-08/node_modules/express/lib/application.js:640:10)
+    at Function.render (/home/student/Group-08/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/home/student/Group-08/node_modules/express/lib/response.js:1008:7)
+    at ServerResponse.res.render (/home/student/Group-08/node_modules/express-ejs-layouts/lib/express-layouts.js:77:18)
+    at /home/student/Group-08/index.js:94:9
+ReferenceError: /home/student/Group-08/Rent-emAll-Web-Portal/main.ejs:33
+    31|             <% if(sess.name && sess.username){ %>
+    32|             <h3 class="text-danger">Hello,
+ >> 33|                 <%= name %> (
+    34|                 <%= username %>)!</h3>
+    35|             <br />
+    36|             <p>Welcome to the world of rent!
+
+name is not defined
+    at eval (eval at compile (/home/student/Group-08/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:14:26)
+    at returnedFn (/home/student/Group-08/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/home/student/Group-08/node_modules/ejs/lib/ejs.js:251:36)
+    at View.exports.renderFile [as engine] (/home/student/Group-08/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/home/student/Group-08/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/student/Group-08/node_modules/express/lib/application.js:640:10)
+    at Function.render (/home/student/Group-08/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/home/student/Group-08/node_modules/express/lib/response.js:1008:7)
+    at ServerResponse.res.render (/home/student/Group-08/node_modules/express-ejs-layouts/lib/express-layouts.js:77:18)
+    at /home/student/Group-08/index.js:85:9
+ReferenceError: /home/student/Group-08/Rent-emAll-Web-Portal/main.ejs:33
+    31|             <% if(sess.name && sess.username){ %>
+    32|             <h3 class="text-danger">Hello,
+ >> 33|                 <%= name %> (
+    34|                 <%= username %>)!</h3>
+    35|             <br />
+    36|             <p>Welcome to the world of rent!
+
+name is not defined
+    at eval (eval at compile (/home/student/Group-08/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:14:26)
+    at returnedFn (/home/student/Group-08/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/home/student/Group-08/node_modules/ejs/lib/ejs.js:251:36)
+    at View.exports.renderFile [as engine] (/home/student/Group-08/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/home/student/Group-08/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/student/Group-08/node_modules/express/lib/application.js:640:10)
+    at Function.render (/home/student/Group-08/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/home/student/Group-08/node_modules/express/lib/response.js:1008:7)
+    at ServerResponse.res.render (/home/student/Group-08/node_modules/express-ejs-layouts/lib/express-layouts.js:77:18)
+    at /home/student/Group-08/index.js:85:9
+ReferenceError: /home/student/Group-08/Rent-emAll-Web-Portal/main.ejs:33
+    31|             <% if(sess.name && sess.username){ %>
+    32|             <h3 class="text-danger">Hello,
+ >> 33|                 <%= name %> (
+    34|                 <%= username %>)!</h3>
+    35|             <br />
+    36|             <p>Welcome to the world of rent!
+
+name is not defined
+    at eval (eval at compile (/home/student/Group-08/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:14:26)
+    at returnedFn (/home/student/Group-08/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/home/student/Group-08/node_modules/ejs/lib/ejs.js:251:36)
+    at View.exports.renderFile [as engine] (/home/student/Group-08/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/home/student/Group-08/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/student/Group-08/node_modules/express/lib/application.js:640:10)
+    at Function.render (/home/student/Group-08/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/home/student/Group-08/node_modules/express/lib/response.js:1008:7)
+    at ServerResponse.res.render (/home/student/Group-08/node_modules/express-ejs-layouts/lib/express-layouts.js:77:18)
+    at /home/student/Group-08/index.js:85:9
+ReferenceError: /home/student/Group-08/Rent-emAll-Web-Portal/main.ejs:33
+    31|             <% if(sess.name && sess.username){ %>
+    32|             <h3 class="text-danger">Hello,
+ >> 33|                 <%= name %> (
+    34|                 <%= username %>)!</h3>
+    35|             <br />
+    36|             <p>Welcome to the world of rent!
+
+name is not defined
+    at eval (eval at compile (/home/student/Group-08/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:14:26)
+    at returnedFn (/home/student/Group-08/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/home/student/Group-08/node_modules/ejs/lib/ejs.js:251:36)
+    at View.exports.renderFile [as engine] (/home/student/Group-08/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/home/student/Group-08/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/student/Group-08/node_modules/express/lib/application.js:640:10)
+    at Function.render (/home/student/Group-08/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/home/student/Group-08/node_modules/express/lib/response.js:1008:7)
+    at ServerResponse.res.render (/home/student/Group-08/node_modules/express-ejs-layouts/lib/express-layouts.js:77:18)
+    at /home/student/Group-08/index.js:85:9
+ReferenceError: /home/student/Group-08/Rent-emAll-Web-Portal/main.ejs:33
+    31|             <% if(sess.name && sess.username){ %>
+    32|             <h3 class="text-danger">Hello,
+ >> 33|                 <%= name %> (
+    34|                 <%= username %>)!</h3>
+    35|             <br />
+    36|             <p>Welcome to the world of rent!
+
+name is not defined
+    at eval (eval at compile (/home/student/Group-08/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:14:26)
+    at returnedFn (/home/student/Group-08/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/home/student/Group-08/node_modules/ejs/lib/ejs.js:251:36)
+    at View.exports.renderFile [as engine] (/home/student/Group-08/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/home/student/Group-08/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/student/Group-08/node_modules/express/lib/application.js:640:10)
+    at Function.render (/home/student/Group-08/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/home/student/Group-08/node_modules/express/lib/response.js:1008:7)
+    at ServerResponse.res.render (/home/student/Group-08/node_modules/express-ejs-layouts/lib/express-layouts.js:77:18)
+    at /home/student/Group-08/index.js:85:9
+ReferenceError: /home/student/Group-08/Rent-emAll-Web-Portal/main.ejs:33
+    31|             <% if(sess.name && sess.username){ %>
+    32|             <h3 class="text-danger">Hello,
+ >> 33|                 <%= name %> (
+    34|                 <%= username %>)!</h3>
+    35|             <br />
+    36|             <p>Welcome to the world of rent!
+
+name is not defined
+    at eval (eval at compile (/home/student/Group-08/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:14:26)
+    at returnedFn (/home/student/Group-08/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/home/student/Group-08/node_modules/ejs/lib/ejs.js:251:36)
+    at View.exports.renderFile [as engine] (/home/student/Group-08/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/home/student/Group-08/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/student/Group-08/node_modules/express/lib/application.js:640:10)
+    at Function.render (/home/student/Group-08/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/home/student/Group-08/node_modules/express/lib/response.js:1008:7)
+    at ServerResponse.res.render (/home/student/Group-08/node_modules/express-ejs-layouts/lib/express-layouts.js:77:18)
+    at /home/student/Group-08/index.js:85:9
+ReferenceError: /home/student/Group-08/Rent-emAll-Web-Portal/main.ejs:33
+    31|             <% if(sess.name && sess.username){ %>
+    32|             <h3 class="text-danger">Hello,
+ >> 33|                 <%= name %> (
+    34|                 <%= username %>)!</h3>
+    35|             <br />
+    36|             <p>Welcome to the world of rent!
+
+name is not defined
+    at eval (eval at compile (/home/student/Group-08/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:14:26)
+    at returnedFn (/home/student/Group-08/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/home/student/Group-08/node_modules/ejs/lib/ejs.js:251:36)
+    at View.exports.renderFile [as engine] (/home/student/Group-08/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/home/student/Group-08/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/student/Group-08/node_modules/express/lib/application.js:640:10)
+    at Function.render (/home/student/Group-08/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/home/student/Group-08/node_modules/express/lib/response.js:1008:7)
+    at ServerResponse.res.render (/home/student/Group-08/node_modules/express-ejs-layouts/lib/express-layouts.js:77:18)
+    at /home/student/Group-08/index.js:85:9
+ReferenceError: /home/student/Group-08/Rent-emAll-Web-Portal/main.ejs:33
+    31|             <% if(sess.name && sess.username){ %>
+    32|             <h3 class="text-danger">Hello,
+ >> 33|                 <%= name %> (
+    34|                 <%= username %>)!</h3>
+    35|             <br />
+    36|             <p>Welcome to the world of rent!
+
+name is not defined
+    at eval (eval at compile (/home/student/Group-08/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:14:26)
+    at returnedFn (/home/student/Group-08/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/home/student/Group-08/node_modules/ejs/lib/ejs.js:251:36)
+    at View.exports.renderFile [as engine] (/home/student/Group-08/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/home/student/Group-08/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/student/Group-08/node_modules/express/lib/application.js:640:10)
+    at Function.render (/home/student/Group-08/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/home/student/Group-08/node_modules/express/lib/response.js:1008:7)
+    at ServerResponse.res.render (/home/student/Group-08/node_modules/express-ejs-layouts/lib/express-layouts.js:77:18)
+    at /home/student/Group-08/index.js:85:9
+ReferenceError: /home/student/Group-08/Rent-emAll-Web-Portal/main.ejs:33
+    31|             <% if(sess.name && sess.username){ %>
+    32|             <h3 class="text-danger">Hello,
+ >> 33|                 <%= name %> (
+    34|                 <%= username %>)!</h3>
+    35|             <br />
+    36|             <p>Welcome to the world of rent!
+
+name is not defined
+    at eval (eval at compile (/home/student/Group-08/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:14:26)
+    at returnedFn (/home/student/Group-08/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/home/student/Group-08/node_modules/ejs/lib/ejs.js:251:36)
+    at View.exports.renderFile [as engine] (/home/student/Group-08/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/home/student/Group-08/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/student/Group-08/node_modules/express/lib/application.js:640:10)
+    at Function.render (/home/student/Group-08/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/home/student/Group-08/node_modules/express/lib/response.js:1008:7)
+    at ServerResponse.res.render (/home/student/Group-08/node_modules/express-ejs-layouts/lib/express-layouts.js:77:18)
+    at /home/student/Group-08/index.js:94:9
+Error: read ETIMEDOUT
+    at TCP.onread (net.js:622:25)
+    --------------------
+    at Protocol._enqueue (/home/student/Group-08/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/student/Group-08/node_modules/mysql/lib/Connection.js:200:25)
+    at /home/student/Group-08/index.js:135:16
+    at Layer.handle [as handle_request] (/home/student/Group-08/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/student/Group-08/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/student/Group-08/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/student/Group-08/node_modules/express/lib/router/layer.js:95:5)
+    at /home/student/Group-08/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/student/Group-08/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/student/Group-08/node_modules/express/lib/router/index.js:275:10)
+Error: read ETIMEDOUT
+    at TCP.onread (net.js:622:25)
+    --------------------
+    at Protocol._enqueue (/home/student/Group-08/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/student/Group-08/node_modules/mysql/lib/Connection.js:200:25)
+    at /home/student/Group-08/index.js:250:16
+    at Layer.handle [as handle_request] (/home/student/Group-08/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/student/Group-08/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/student/Group-08/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/student/Group-08/node_modules/express/lib/router/layer.js:95:5)
+    at /home/student/Group-08/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/student/Group-08/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/student/Group-08/node_modules/express/lib/router/index.js:275:10)
+Error: read ETIMEDOUT
+    at TCP.onread (net.js:622:25)
+    --------------------
+    at Protocol._enqueue (/home/student/Group-08/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/student/Group-08/node_modules/mysql/lib/Connection.js:200:25)
+    at /home/student/Group-08/index.js:135:16
+    at Layer.handle [as handle_request] (/home/student/Group-08/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/student/Group-08/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/student/Group-08/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/student/Group-08/node_modules/express/lib/router/layer.js:95:5)
+    at /home/student/Group-08/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/student/Group-08/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/student/Group-08/node_modules/express/lib/router/index.js:275:10)
+Error: read ETIMEDOUT
+    at TCP.onread (net.js:622:25)
+    --------------------
+    at Protocol._enqueue (/home/student/Group-08/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/student/Group-08/node_modules/mysql/lib/Connection.js:200:25)
+    at /home/student/Group-08/index.js:135:16
+    at Layer.handle [as handle_request] (/home/student/Group-08/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/student/Group-08/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/student/Group-08/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/student/Group-08/node_modules/express/lib/router/layer.js:95:5)
+    at /home/student/Group-08/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/student/Group-08/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/student/Group-08/node_modules/express/lib/router/index.js:275:10)
+ReferenceError: /home/student/Group-08/Rent-emAll-Web-Portal/itemlisting.ejs:122
+    120|                         <a href="/lenderpage"><span class="font-weight-bold" id="username">Lender: <%= items[i].userId %></span></a><br>
+    121|                         <div id="rating" class="mt-2">
+ >> 122|                             <span class="star-prototype"><%= rates[i] %></span>
+    123|                         </div>
+    124|                       </div>
+    125|                     </td>
+
+rates is not defined
+    at eval (eval at compile (/home/student/Group-08/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:38:26)
+    at returnedFn (/home/student/Group-08/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/home/student/Group-08/node_modules/ejs/lib/ejs.js:251:36)
+    at View.exports.renderFile [as engine] (/home/student/Group-08/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/home/student/Group-08/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/student/Group-08/node_modules/express/lib/application.js:640:10)
+    at Function.render (/home/student/Group-08/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/home/student/Group-08/node_modules/express/lib/response.js:1008:7)
+    at ServerResponse.res.render (/home/student/Group-08/node_modules/express-ejs-layouts/lib/express-layouts.js:77:18)
+    at Query.<anonymous> (/home/student/Group-08/index.js:152:11)
+ReferenceError: /home/student/Group-08/Rent-emAll-Web-Portal/itemlisting.ejs:122
+    120|                         <a href="/lenderpage"><span class="font-weight-bold" id="username">Lender: <%= items[i].userId %></span></a><br>
+    121|                         <div id="rating" class="mt-2">
+ >> 122|                             <span class="star-prototype"><%= rates[i] %></span>
+    123|                         </div>
+    124|                       </div>
+    125|                     </td>
+
+rates is not defined
+    at eval (eval at compile (/home/student/Group-08/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:38:26)
+    at returnedFn (/home/student/Group-08/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/home/student/Group-08/node_modules/ejs/lib/ejs.js:251:36)
+    at View.exports.renderFile [as engine] (/home/student/Group-08/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/home/student/Group-08/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/student/Group-08/node_modules/express/lib/application.js:640:10)
+    at Function.render (/home/student/Group-08/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/home/student/Group-08/node_modules/express/lib/response.js:1008:7)
+    at ServerResponse.res.render (/home/student/Group-08/node_modules/express-ejs-layouts/lib/express-layouts.js:77:18)
+    at Query.<anonymous> (/home/student/Group-08/index.js:152:11)
+ReferenceError: /home/student/Group-08/Rent-emAll-Web-Portal/itemlisting.ejs:122
+    120|                         <a href="/lenderpage"><span class="font-weight-bold" id="username">Lender: <%= items[i].userId %></span></a><br>
+    121|                         <div id="rating" class="mt-2">
+ >> 122|                             <span class="star-prototype"><%= rates[i] %></span>
+    123|                         </div>
+    124|                       </div>
+    125|                     </td>
+
+rates is not defined
+    at eval (eval at compile (/home/student/Group-08/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:38:26)
+    at returnedFn (/home/student/Group-08/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/home/student/Group-08/node_modules/ejs/lib/ejs.js:251:36)
+    at View.exports.renderFile [as engine] (/home/student/Group-08/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/home/student/Group-08/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/student/Group-08/node_modules/express/lib/application.js:640:10)
+    at Function.render (/home/student/Group-08/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/home/student/Group-08/node_modules/express/lib/response.js:1008:7)
+    at ServerResponse.res.render (/home/student/Group-08/node_modules/express-ejs-layouts/lib/express-layouts.js:77:18)
+    at Query.<anonymous> (/home/student/Group-08/index.js:152:11)
+ReferenceError: /home/student/Group-08/Rent-emAll-Web-Portal/itemlisting.ejs:122
+    120|                         <a href="/lenderpage"><span class="font-weight-bold" id="username">Lender: <%= items[i].userId %></span></a><br>
+    121|                         <div id="rating" class="mt-2">
+ >> 122|                             <span class="star-prototype"><%= rates[i] %></span>
+    123|                         </div>
+    124|                       </div>
+    125|                     </td>
+
+rates is not defined
+    at eval (eval at compile (/home/student/Group-08/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:38:26)
+    at returnedFn (/home/student/Group-08/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/home/student/Group-08/node_modules/ejs/lib/ejs.js:251:36)
+    at View.exports.renderFile [as engine] (/home/student/Group-08/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/home/student/Group-08/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/student/Group-08/node_modules/express/lib/application.js:640:10)
+    at Function.render (/home/student/Group-08/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/home/student/Group-08/node_modules/express/lib/response.js:1008:7)
+    at ServerResponse.res.render (/home/student/Group-08/node_modules/express-ejs-layouts/lib/express-layouts.js:77:18)
+    at Query.<anonymous> (/home/student/Group-08/index.js:152:11)
+ReferenceError: /home/student/Group-08/Rent-emAll-Web-Portal/itemlisting.ejs:122
+    120|                         <a href="/lenderpage"><span class="font-weight-bold" id="username">Lender: <%= items[i].userId %></span></a><br>
+    121|                         <div id="rating" class="mt-2">
+ >> 122|                             <span class="star-prototype"><%= rates[i] %></span>
+    123|                         </div>
+    124|                       </div>
+    125|                     </td>
+
+rates is not defined
+    at eval (eval at compile (/home/student/Group-08/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:38:26)
+    at returnedFn (/home/student/Group-08/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/home/student/Group-08/node_modules/ejs/lib/ejs.js:251:36)
+    at View.exports.renderFile [as engine] (/home/student/Group-08/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/home/student/Group-08/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/student/Group-08/node_modules/express/lib/application.js:640:10)
+    at Function.render (/home/student/Group-08/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/home/student/Group-08/node_modules/express/lib/response.js:1008:7)
+    at ServerResponse.res.render (/home/student/Group-08/node_modules/express-ejs-layouts/lib/express-layouts.js:77:18)
+    at Query.<anonymous> (/home/student/Group-08/index.js:152:11)
+ReferenceError: /home/student/Group-08/Rent-emAll-Web-Portal/itemlisting.ejs:122
+    120|                         <a href="/lenderpage"><span class="font-weight-bold" id="username">Lender: <%= items[i].userId %></span></a><br>
+    121|                         <div id="rating" class="mt-2">
+ >> 122|                             <span class="star-prototype"><%= rates[i] %></span>
+    123|                         </div>
+    124|                       </div>
+    125|                     </td>
+
+rates is not defined
+    at eval (eval at compile (/home/student/Group-08/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:38:26)
+    at returnedFn (/home/student/Group-08/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/home/student/Group-08/node_modules/ejs/lib/ejs.js:251:36)
+    at View.exports.renderFile [as engine] (/home/student/Group-08/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/home/student/Group-08/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/student/Group-08/node_modules/express/lib/application.js:640:10)
+    at Function.render (/home/student/Group-08/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/home/student/Group-08/node_modules/express/lib/response.js:1008:7)
+    at ServerResponse.res.render (/home/student/Group-08/node_modules/express-ejs-layouts/lib/express-layouts.js:77:18)
+    at Query.<anonymous> (/home/student/Group-08/index.js:152:11)
+ReferenceError: /home/student/Group-08/Rent-emAll-Web-Portal/itemlisting.ejs:122
+    120|                         <a href="/lenderpage"><span class="font-weight-bold" id="username">Lender: <%= items[i].userId %></span></a><br>
+    121|                         <div id="rating" class="mt-2">
+ >> 122|                             <span class="star-prototype"><%= rates[i] %></span>
+    123|                         </div>
+    124|                       </div>
+    125|                     </td>
+
+rates is not defined
+    at eval (eval at compile (/home/student/Group-08/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:38:26)
+    at returnedFn (/home/student/Group-08/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/home/student/Group-08/node_modules/ejs/lib/ejs.js:251:36)
+    at View.exports.renderFile [as engine] (/home/student/Group-08/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/home/student/Group-08/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/student/Group-08/node_modules/express/lib/application.js:640:10)
+    at Function.render (/home/student/Group-08/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/home/student/Group-08/node_modules/express/lib/response.js:1008:7)
+    at ServerResponse.res.render (/home/student/Group-08/node_modules/express-ejs-layouts/lib/express-layouts.js:77:18)
+    at Query.<anonymous> (/home/student/Group-08/index.js:152:11)
+ReferenceError: /home/student/Group-08/Rent-emAll-Web-Portal/itemlisting.ejs:122
+    120|                         <a href="/lenderpage"><span class="font-weight-bold" id="username">Lender: <%= items[i].userId %></span></a><br>
+    121|                         <div id="rating" class="mt-2">
+ >> 122|                             <span class="star-prototype"><%= rates[i] %></span>
+    123|                         </div>
+    124|                       </div>
+    125|                     </td>
+
+rates is not defined
+    at eval (eval at compile (/home/student/Group-08/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:38:26)
+    at returnedFn (/home/student/Group-08/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/home/student/Group-08/node_modules/ejs/lib/ejs.js:251:36)
+    at View.exports.renderFile [as engine] (/home/student/Group-08/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/home/student/Group-08/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/student/Group-08/node_modules/express/lib/application.js:640:10)
+    at Function.render (/home/student/Group-08/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/home/student/Group-08/node_modules/express/lib/response.js:1008:7)
+    at ServerResponse.res.render (/home/student/Group-08/node_modules/express-ejs-layouts/lib/express-layouts.js:77:18)
+    at Query.<anonymous> (/home/student/Group-08/index.js:152:11)
+Error: read ETIMEDOUT
+    at TCP.onread (net.js:622:25)
+    --------------------
+    at Protocol._enqueue (/home/student/Group-08/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/student/Group-08/node_modules/mysql/lib/Connection.js:200:25)
+    at /home/student/Group-08/index.js:135:16
+    at Layer.handle [as handle_request] (/home/student/Group-08/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/student/Group-08/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/student/Group-08/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/student/Group-08/node_modules/express/lib/router/layer.js:95:5)
+    at /home/student/Group-08/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/student/Group-08/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/student/Group-08/node_modules/express/lib/router/index.js:275:10)
+Error: read ETIMEDOUT
+    at TCP.onread (net.js:622:25)
+    --------------------
+    at Protocol._enqueue (/home/student/Group-08/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/student/Group-08/node_modules/mysql/lib/Connection.js:200:25)
+    at /home/student/Group-08/index.js:135:16
+    at Layer.handle [as handle_request] (/home/student/Group-08/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/student/Group-08/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/student/Group-08/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/student/Group-08/node_modules/express/lib/router/layer.js:95:5)
+    at /home/student/Group-08/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/student/Group-08/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/student/Group-08/node_modules/express/lib/router/index.js:275:10)
+Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'
+    at Query.Sequence._packetToError (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/student/Group-08/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/student/Group-08/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/home/student/Group-08/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/student/Group-08/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/home/student/Group-08/node_modules/mysql/lib/Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    --------------------
+    at Protocol._enqueue (/home/student/Group-08/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/student/Group-08/node_modules/mysql/lib/Connection.js:200:25)
+    at /home/student/Group-08/index.js:135:16
+    at Layer.handle [as handle_request] (/home/student/Group-08/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/student/Group-08/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/student/Group-08/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/student/Group-08/node_modules/express/lib/router/layer.js:95:5)
+    at /home/student/Group-08/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/student/Group-08/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/student/Group-08/node_modules/express/lib/router/index.js:275:10)
+TypeError: /home/student/Group-08/Rent-emAll-Web-Portal/item.ejs:36
+    34|                                                         <h5>Lender:&nbsp;&nbsp;</h5>
+    35|                                                         <h5>
+ >> 36|                                                             <%= user.userName %>
+    37|                                                         </h5>
+    38|                                                         <span>&nbsp;&nbsp;&nbsp;</span>
+    39|                                                         <span class="star-prototype">
+
+Cannot read property 'userName' of undefined
+    at eval (eval at compile (/home/student/Group-08/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:20:31)
+    at returnedFn (/home/student/Group-08/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/home/student/Group-08/node_modules/ejs/lib/ejs.js:251:36)
+    at View.exports.renderFile [as engine] (/home/student/Group-08/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/home/student/Group-08/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/student/Group-08/node_modules/express/lib/application.js:640:10)
+    at Function.render (/home/student/Group-08/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/home/student/Group-08/node_modules/express/lib/response.js:1008:7)
+    at ServerResponse.res.render (/home/student/Group-08/node_modules/express-ejs-layouts/lib/express-layouts.js:77:18)
+    at /home/student/Group-08/index.js:252:13

@@ -10,16 +10,21 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Search Pattern:
+~MSle0~/\V\<div\>
+
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1540957534,,"q"
-:q!
-|2,0,1540957291,,"q!"
 :wq
-|2,0,1540950822,,"wq"
+|2,0,1542044286,,"wq"
+:q!
+|2,0,1542040837,,"q!"
+:q
+|2,0,1542035028,,"q"
+:%y+
+|2,0,1542017803,,"%y+"
 :w
 |2,0,1540783243,,"w"
 :wq!
@@ -31,7 +36,7 @@ $
 
 # Search String History (newest to oldest):
 ? @$
-|2,1,1539438490,,"@$"
+|2,1,1542037421,,"@$"
 
 # Expression History (newest to oldest):
 
@@ -40,265 +45,786 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	
-|3,0,0,1,1,0,1539438490,""
+"0	CHAR	0
+	x
+|3,0,0,0,1,0,1542037421,"x"
 ""1	LINE	0
-	>>>>>>> 1e5bde61dd17be43d0b2a328ef91eae3e83b7f4b
-|3,1,1,1,1,0,1540950808,">>>>>>> 1e5bde61dd17be43d0b2a328ef91eae3e83b7f4b"
+	<div class="container">
+	    <div class="row">
+	        <div class="col-md-10 mx-auto card my-5 shadow-lg rounded">
+	            <div class="card-body">
+	                <h2 class="card-title text-center mb-4">Post Product</h2><br>
+	                <form id="itemform" name="itemform" enctype="multipart/form-data" method="POST" action="/postItem">
+	                    <div class="form-group row">
+	
+	                        <div class="col-md-7">
+	                            <!-- second column -->
+	                            <div class="form-group row">
+	                                <!-- zero row -->
+	                                <div class="col-sm-3">
+	                                    <label for="name">Category</label>
+	                                </div>
+	
+	                                <div class="col-sm-9">
+	                                    <select id="categoryselect" name="category" class="form-control mr-sm-2" style="background-color: rgb(223, 244, 255);">
+	                                        <option value="">Please select one...</option>
+	                                        <option value="1">Homeware</option>
+	                                        <option value="2">Tools &amp; Equip</option>
+	                                        <option value="3">Sports &amp; Rec</option>
+	                                        <option value="4">Entertainment</option>
+	                                        <option value="5">Babies &amp; Kids</option>
+	                                        <option value="6">Fashion</option>
+	                                    </select>
+	                                    <div class="errorMsg" id="categoryError"></div>
+	                                </div>
+	                            </div>
+	
+	                            <div class="form-group row">
+	                                <!-- first row -->
+	                                <div class="col-sm-3">
+	                                    <label for="name">Product Title</label>
+	                                </div>
+	
+	                                <div class="col-sm-9">
+	                                    <input type="text" class="form-control" id="name" name="name" maxlength="100">
+	                                    <div class="errorMsg" id="nameError"></div>
+	                                </div>
+	                            </div>
+	
+	                            <div class="form-group row">
+	                                <!-- second row -->
+	                                <div class="col-sm-3">
+	                                    <label for="description">Product Description</label>
+	                                </div>
+	
+	                                <div class="col-sm-9">
+	                                    <textarea class="form-control" id="description" name="description" rows="7"
+|3,1,1,1,50,0,1542044269,"<div class=\"container\">","    <div class=\"row\">","        <div class=\"col-md-10 mx-auto card my-5 shadow-lg rounded\">","            <div class=\"card-body\">","                <h2 class=\"card-title text-center mb-4\">Post Product</h2><br>","                <form id=\"itemform\" name=\"itemform\" enctype=\"multipart/form-data\" method=\"POST\" action=\"/postItem\">","                    <div class=\"form-group row\">","",>50
+|<"                        <div class=\"col-md-7\">","                            <!-- second column -->","                            <div class=\"form-group row\">","                                <!-- zero row -->","                                <div class=\"col-sm-3\">","                                    <label for=\"name\">Category</label>","                                </div>","","                                <div class=\"col-sm-9\">",>165
+|<"                                    <select id=\"categoryselect\" name=\"category\" class=\"form-control mr-sm-2\" style=\"background-color: rgb(223, 244, 255);\">","                                        <option value=\"\">Please select one...</option>","                                        <option value=\"1\">Homeware</option>","                                        <option value=\"2\">Tools &amp; Equip</option>",>87
+|<"                                        <option value=\"3\">Sports &amp; Rec</option>","                                        <option value=\"4\">Entertainment</option>","                                        <option value=\"5\">Babies &amp; Kids</option>","                                        <option value=\"6\">Fashion</option>","                                    </select>","                                    <div class=\"errorMsg\" id=\"categoryError\"></div>",>40
+|<"                                </div>","                            </div>","","                            <div class=\"form-group row\">","                                <!-- first row -->","                                <div class=\"col-sm-3\">","                                    <label for=\"name\">Product Title</label>","                                </div>","","                                <div class=\"col-sm-9\">",>126
+|<"                                    <input type=\"text\" class=\"form-control\" id=\"name\" name=\"name\" maxlength=\"100\">","                                    <div class=\"errorMsg\" id=\"nameError\"></div>","                                </div>","                            </div>","","                            <div class=\"form-group row\">","                                <!-- second row -->","                                <div class=\"col-sm-3\">",>92
+|<"                                    <label for=\"description\">Product Description</label>","                                </div>","","                                <div class=\"col-sm-9\">","                                    <textarea class=\"form-control\" id=\"description\" name=\"description\" rows=\"7\""
 "2	LINE	0
-	=======
-|3,0,2,1,1,0,1540950805,"======="
+	<div class="container">
+	    <div class="row">
+	        <div class="col-md-10 mx-auto card my-5 shadow-lg rounded">
+	            <div class="card-body">
+	                <h2 class="card-title text-center mb-4">Post Product</h2><br>
+	                <form id="itemform" name="itemform" enctype="multipart/form-data" method="POST" action="/postItem">
+	                    <div class="form-group row">
+	
+	                        <div class="col-md-7">
+	                            <!-- second column -->
+	                            <div class="form-group row">
+	                                <!-- zero row -->
+	                                <div class="col-sm-3">
+	                                    <label for="name">Category</label>
+	                                </div>
+	
+	                                <div class="col-sm-9">
+	                                    <select id="categoryselect" name="category" class="form-control mr-sm-2" style="background-color: rgb(223, 244, 255);">
+	                                        <option value="">Please select one...</option>
+	                                        <option value="1">Homeware</option>
+	                                        <option value="2">Tools &amp; Equip</option>
+	                                        <option value="3">Sports &amp; Rec</option>
+	                                        <option value="4">Entertainment</option>
+	                                        <option value="5">Babies &amp; Kids</option>
+	                                        <option value="6">Fashion</option>
+	                                    </select>
+	                                    <div class="errorMsg" id="categoryError"></div>
+	                                </div>
+	                            </div>
+	
+	                            <div class="form-group row">
+	                                <!-- first row -->
+	                                <div class="col-sm-3">
+	                                    <label for="name">Product Title</label>
+	                                </div>
+	
+	                                <div class="col-sm-9">
+	                                    <input type="text" class="form-control" id="name" name="name" maxlength="100">
+	                                    <div class="errorMsg" id="nameError"></div>
+	                                </div>
+	                            </div>
+	
+	                            <div class="form-group row">
+	                                <!-- second row -->
+	                                <div class="col-sm-3">
+	                                    <label for="description">Product Description</label>
+	                                </div>
+	
+	                                <div class="col-sm-9">
+	                                    <textarea class="form-control" id="description" name="description" rows="7"
+|3,0,2,1,50,0,1542043973,"<div class=\"container\">","    <div class=\"row\">","        <div class=\"col-md-10 mx-auto card my-5 shadow-lg rounded\">","            <div class=\"card-body\">","                <h2 class=\"card-title text-center mb-4\">Post Product</h2><br>","                <form id=\"itemform\" name=\"itemform\" enctype=\"multipart/form-data\" method=\"POST\" action=\"/postItem\">","                    <div class=\"form-group row\">","",>50
+|<"                        <div class=\"col-md-7\">","                            <!-- second column -->","                            <div class=\"form-group row\">","                                <!-- zero row -->","                                <div class=\"col-sm-3\">","                                    <label for=\"name\">Category</label>","                                </div>","","                                <div class=\"col-sm-9\">",>165
+|<"                                    <select id=\"categoryselect\" name=\"category\" class=\"form-control mr-sm-2\" style=\"background-color: rgb(223, 244, 255);\">","                                        <option value=\"\">Please select one...</option>","                                        <option value=\"1\">Homeware</option>","                                        <option value=\"2\">Tools &amp; Equip</option>",>87
+|<"                                        <option value=\"3\">Sports &amp; Rec</option>","                                        <option value=\"4\">Entertainment</option>","                                        <option value=\"5\">Babies &amp; Kids</option>","                                        <option value=\"6\">Fashion</option>","                                    </select>","                                    <div class=\"errorMsg\" id=\"categoryError\"></div>",>40
+|<"                                </div>","                            </div>","","                            <div class=\"form-group row\">","                                <!-- first row -->","                                <div class=\"col-sm-3\">","                                    <label for=\"name\">Product Title</label>","                                </div>","","                                <div class=\"col-sm-9\">",>126
+|<"                                    <input type=\"text\" class=\"form-control\" id=\"name\" name=\"name\" maxlength=\"100\">","                                    <div class=\"errorMsg\" id=\"nameError\"></div>","                                </div>","                            </div>","","                            <div class=\"form-group row\">","                                <!-- second row -->","                                <div class=\"col-sm-3\">",>92
+|<"                                    <label for=\"description\">Product Description</label>","                                </div>","","                                <div class=\"col-sm-9\">","                                    <textarea class=\"form-control\" id=\"description\" name=\"description\" rows=\"7\""
 "3	LINE	0
-	<<<<<<< HEAD
-|3,0,3,1,1,0,1540950804,"<<<<<<< HEAD"
+	<iv class="container">
+	    <div class="row">
+	        <div class="col-md-10 mx-auto card my-5 shadow-lg rounded">
+	            <div class="card-body">
+	                <h2 class="card-title text-center mb-4">Post Product</h2><br>
+	                <form id="itemform" name="itemform" enctype="multipart/form-data" method="POST" action="/postItem">
+	                    <div class="form-group row">
+	
+	                        <div class="col-md-7">
+	                            <!-- second column -->
+	                            <div class="form-group row">
+	                                <!-- zero row -->
+	                                <div class="col-sm-3">
+	                                    <label for="name">Category</label>
+	                                </div>
+	
+	                                <div class="col-sm-9">
+	                                    <select id="categoryselect" name="category" class="form-control mr-sm-2" style="background-color: rgb(223, 244, 255);">
+	                                        <option value="">Please select one...</option>
+	                                        <option value="1">Homeware</option>
+	                                        <option value="2">Tools &amp; Equip</option>
+	                                        <option value="3">Sports &amp; Rec</option>
+	                                        <option value="4">Entertainment</option>
+	                                        <option value="5">Babies &amp; Kids</option>
+	                                        <option value="6">Fashion</option>
+	                                    </select>
+	                                    <div class="errorMsg" id="categoryError"></div>
+	                                </div>
+	                            </div>
+	
+	                            <div class="form-group row">
+	                                <!-- first row -->
+	                                <div class="col-sm-3">
+	                                    <label for="name">Product Title</label>
+	                                </div>
+	
+	                                <div class="col-sm-9">
+	                                    <input type="text" class="form-control" id="name" name="name" maxlength="100">
+	                                    <div class="errorMsg" id="nameError"></div>
+	                                </div>
+	                            </div>
+	
+	                            <div class="form-group row">
+	                                <!-- second row -->
+	                                <div class="col-sm-3">
+	                                    <label for="description">Product Description</label>
+	                                </div>
+	
+	                                <div class="col-sm-9">
+	                                    <textarea class="form-control" id="description" name="description" rows="7"
+|3,0,3,1,50,0,1542042987,"<iv class=\"container\">","    <div class=\"row\">","        <div class=\"col-md-10 mx-auto card my-5 shadow-lg rounded\">","            <div class=\"card-body\">","                <h2 class=\"card-title text-center mb-4\">Post Product</h2><br>","                <form id=\"itemform\" name=\"itemform\" enctype=\"multipart/form-data\" method=\"POST\" action=\"/postItem\">","                    <div class=\"form-group row\">","",>50
+|<"                        <div class=\"col-md-7\">","                            <!-- second column -->","                            <div class=\"form-group row\">","                                <!-- zero row -->","                                <div class=\"col-sm-3\">","                                    <label for=\"name\">Category</label>","                                </div>","","                                <div class=\"col-sm-9\">",>165
+|<"                                    <select id=\"categoryselect\" name=\"category\" class=\"form-control mr-sm-2\" style=\"background-color: rgb(223, 244, 255);\">","                                        <option value=\"\">Please select one...</option>","                                        <option value=\"1\">Homeware</option>","                                        <option value=\"2\">Tools &amp; Equip</option>",>87
+|<"                                        <option value=\"3\">Sports &amp; Rec</option>","                                        <option value=\"4\">Entertainment</option>","                                        <option value=\"5\">Babies &amp; Kids</option>","                                        <option value=\"6\">Fashion</option>","                                    </select>","                                    <div class=\"errorMsg\" id=\"categoryError\"></div>",>40
+|<"                                </div>","                            </div>","","                            <div class=\"form-group row\">","                                <!-- first row -->","                                <div class=\"col-sm-3\">","                                    <label for=\"name\">Product Title</label>","                                </div>","","                                <div class=\"col-sm-9\">",>126
+|<"                                    <input type=\"text\" class=\"form-control\" id=\"name\" name=\"name\" maxlength=\"100\">","                                    <div class=\"errorMsg\" id=\"nameError\"></div>","                                </div>","                            </div>","","                            <div class=\"form-group row\">","                                <!-- second row -->","                                <div class=\"col-sm-3\">",>92
+|<"                                    <label for=\"description\">Product Description</label>","                                </div>","","                                <div class=\"col-sm-9\">","                                    <textarea class=\"form-control\" id=\"description\" name=\"description\" rows=\"7\""
 "4	LINE	0
-	const port = 3030;
-|3,0,4,1,1,0,1540948058,"const port = 3030;"
+	<div class="container">
+	    <div class="row">
+	        <div class="col-md-10 mx-auto card my-5 shadow-lg rounded">
+	            <div class="card-body">
+	                <h2 class="card-title text-center mb-4">Post Product</h2><br>
+	                <form id="itemform" name="itemform" enctype="multipart/form-data" method="POST" action="/postItem">
+	                    <div class="form-group row">
+	
+	                        <div class="col-md-7">
+	                            <!-- second column -->
+	                            <div class="form-group row">
+	                                <!-- zero row -->
+	                                <div class="col-sm-3">
+	                                    <label for="name">Category</label>
+	                                </div>
+	
+	                                <div class="col-sm-9">
+	                                    <select id="categoryselect" name="category" class="form-control mr-sm-2" style="background-color: rgb(223, 244, 255);">
+	                                        <option value="">Please select one...</option>
+	                                        <option value="1">Homeware</option>
+	                                        <option value="2">Tools &amp; Equip</option>
+	                                        <option value="3">Sports &amp; Rec</option>
+	                                        <option value="4">Entertainment</option>
+	                                        <option value="5">Babies &amp; Kids</option>
+	                                        <option value="6">Fashion</option>
+	                                    </select>
+	                                    <div class="errorMsg" id="categoryError"></div>
+	                                </div>
+	                            </div>
+	
+	                            <div class="form-group row">
+	                                <!-- first row -->
+	                                <div class="col-sm-3">
+	                                    <label for="name">Product Title</label>
+	                                </div>
+	
+	                                <div class="col-sm-9">
+	                                    <input type="text" class="form-control" id="name" name="name" maxlength="100">
+	                                    <div class="errorMsg" id="nameError"></div>
+	                                </div>
+	                            </div>
+	
+	                            <div class="form-group row">
+	                                <!-- second row -->
+	                                <div class="col-sm-3">
+	                                    <label for="description">Product Description</label>
+	                                </div>
+	
+	                                <div class="col-sm-9">
+	                                    <textarea class="form-control" id="description" name="description" rows="7"
+|3,0,4,1,50,0,1542042858,"<div class=\"container\">","    <div class=\"row\">","        <div class=\"col-md-10 mx-auto card my-5 shadow-lg rounded\">","            <div class=\"card-body\">","                <h2 class=\"card-title text-center mb-4\">Post Product</h2><br>","                <form id=\"itemform\" name=\"itemform\" enctype=\"multipart/form-data\" method=\"POST\" action=\"/postItem\">","                    <div class=\"form-group row\">","",>50
+|<"                        <div class=\"col-md-7\">","                            <!-- second column -->","                            <div class=\"form-group row\">","                                <!-- zero row -->","                                <div class=\"col-sm-3\">","                                    <label for=\"name\">Category</label>","                                </div>","","                                <div class=\"col-sm-9\">",>165
+|<"                                    <select id=\"categoryselect\" name=\"category\" class=\"form-control mr-sm-2\" style=\"background-color: rgb(223, 244, 255);\">","                                        <option value=\"\">Please select one...</option>","                                        <option value=\"1\">Homeware</option>","                                        <option value=\"2\">Tools &amp; Equip</option>",>87
+|<"                                        <option value=\"3\">Sports &amp; Rec</option>","                                        <option value=\"4\">Entertainment</option>","                                        <option value=\"5\">Babies &amp; Kids</option>","                                        <option value=\"6\">Fashion</option>","                                    </select>","                                    <div class=\"errorMsg\" id=\"categoryError\"></div>",>40
+|<"                                </div>","                            </div>","","                            <div class=\"form-group row\">","                                <!-- first row -->","                                <div class=\"col-sm-3\">","                                    <label for=\"name\">Product Title</label>","                                </div>","","                                <div class=\"col-sm-9\">",>126
+|<"                                    <input type=\"text\" class=\"form-control\" id=\"name\" name=\"name\" maxlength=\"100\">","                                    <div class=\"errorMsg\" id=\"nameError\"></div>","                                </div>","                            </div>","","                            <div class=\"form-group row\">","                                <!-- second row -->","                                <div class=\"col-sm-3\">",>92
+|<"                                    <label for=\"description\">Product Description</label>","                                </div>","","                                <div class=\"col-sm-9\">","                                    <textarea class=\"form-control\" id=\"description\" name=\"description\" rows=\"7\""
 "5	LINE	0
-	const hostname = 'localhost';
-|3,0,5,1,1,0,1540948058,"const hostname = 'localhost';"
+	v class="container">
+	    <div class="row">
+	        <div class="col-md-10 mx-auto card my-5 shadow-lg rounded">
+	            <div class="card-body">
+	                <h2 class="card-title text-center mb-4">Post Product</h2><br>
+	                <form id="itemform" name="itemform" enctype="multipart/form-data" method="POST" action="/postItem">
+	                    <div class="form-group row">
+	
+	                        <div class="col-md-7">
+	                            <!-- second column -->
+	                            <div class="form-group row">
+	                                <!-- zero row -->
+	                                <div class="col-sm-3">
+	                                    <label for="name">Category</label>
+	                                </div>
+	
+	                                <div class="col-sm-9">
+	                                    <select id="categoryselect" name="category" class="form-control mr-sm-2" style="background-color: rgb(223, 244, 255);">
+	                                        <option value="">Please select one...</option>
+	                                        <option value="1">Homeware</option>
+	                                        <option value="2">Tools &amp; Equip</option>
+	                                        <option value="3">Sports &amp; Rec</option>
+	                                        <option value="4">Entertainment</option>
+	                                        <option value="5">Babies &amp; Kids</option>
+	                                        <option value="6">Fashion</option>
+	                                    </select>
+	                                    <div class="errorMsg" id="categoryError"></div>
+	                                </div>
+	                            </div>
+	
+	                            <div class="form-group row">
+	                                <!-- first row -->
+	                                <div class="col-sm-3">
+	                                    <label for="name">Product Title</label>
+	                                </div>
+	
+	                                <div class="col-sm-9">
+	                                    <input type="text" class="form-control" id="name" name="name" maxlength="100">
+	                                    <div class="errorMsg" id="nameError"></div>
+	                                </div>
+	                            </div>
+	
+	                            <div class="form-group row">
+	                                <!-- second row -->
+	                                <div class="col-sm-3">
+	                                    <label for="description">Product Description</label>
+	                                </div>
+	
+	                                <div class="col-sm-9">
+	                                    <textarea class="form-control" id="description" name="description" rows="7"
+|3,0,5,1,50,0,1542042474,"v class=\"container\">","    <div class=\"row\">","        <div class=\"col-md-10 mx-auto card my-5 shadow-lg rounded\">","            <div class=\"card-body\">","                <h2 class=\"card-title text-center mb-4\">Post Product</h2><br>","                <form id=\"itemform\" name=\"itemform\" enctype=\"multipart/form-data\" method=\"POST\" action=\"/postItem\">","                    <div class=\"form-group row\">","",>50
+|<"                        <div class=\"col-md-7\">","                            <!-- second column -->","                            <div class=\"form-group row\">","                                <!-- zero row -->","                                <div class=\"col-sm-3\">","                                    <label for=\"name\">Category</label>","                                </div>","","                                <div class=\"col-sm-9\">",>165
+|<"                                    <select id=\"categoryselect\" name=\"category\" class=\"form-control mr-sm-2\" style=\"background-color: rgb(223, 244, 255);\">","                                        <option value=\"\">Please select one...</option>","                                        <option value=\"1\">Homeware</option>","                                        <option value=\"2\">Tools &amp; Equip</option>",>87
+|<"                                        <option value=\"3\">Sports &amp; Rec</option>","                                        <option value=\"4\">Entertainment</option>","                                        <option value=\"5\">Babies &amp; Kids</option>","                                        <option value=\"6\">Fashion</option>","                                    </select>","                                    <div class=\"errorMsg\" id=\"categoryError\"></div>",>40
+|<"                                </div>","                            </div>","","                            <div class=\"form-group row\">","                                <!-- first row -->","                                <div class=\"col-sm-3\">","                                    <label for=\"name\">Product Title</label>","                                </div>","","                                <div class=\"col-sm-9\">",>126
+|<"                                    <input type=\"text\" class=\"form-control\" id=\"name\" name=\"name\" maxlength=\"100\">","                                    <div class=\"errorMsg\" id=\"nameError\"></div>","                                </div>","                            </div>","","                            <div class=\"form-group row\">","                                <!-- second row -->","                                <div class=\"col-sm-3\">",>92
+|<"                                    <label for=\"description\">Product Description</label>","                                </div>","","                                <div class=\"col-sm-9\">","                                    <textarea class=\"form-control\" id=\"description\" name=\"description\" rows=\"7\""
 "6	LINE	0
-	const port = 3030;
-|3,0,6,1,1,0,1540947051,"const port = 3030;"
-"7	LINE	0
-	const hostname = 'localhost';
-|3,0,7,1,1,0,1540947051,"const hostname = 'localhost';"
+	<div class="container">
+	    <div class="row">
+	        <div class="col-md-10 mx-auto card my-5 shadow-lg rounded">
+	            <div class="card-body">
+	                <h2 class="card-title text-center mb-4">Post Product</h2><br>
+	                <form id="itemform" name="itemform" enctype="multipart/form-data" method="POST" action="/postItem">
+	                    <div class="form-group row">
+	                        <div class="col-md-4">
+	                            <!-- first column -->
+	                            <img id="myImg" class="mx-auto" src="asset/img/image-not-found.png" alt="Upload image"
+	                                width="100%" height="200" />
+	                            <br><br>
+	                            <label for="photoURL" class="btn btn-secondary btn-block">Click
+	                                here to upload an image</label>
+	                            <input type="file" id="photoURL" name="photoURL" accept="image/*" style="display: none">
+	                            <div class="errorMsg" id="imgError"></div>
+	                        </div> <!-- col-md-4 -->
+	
+	                        <div class="col-md-1">
+	                            <!---------------- empty column ---------------->
+	                        </div>
+	
+	                        <div class="col-md-7">
+	                            <!-- second column -->
+	                            <div class="form-group row">
+	                                <!-- zero row -->
+	                                <div class="col-sm-3">
+	                                    <label for="name">Category</label>
+	                                </div>
+	
+	                                <div class="col-sm-9">
+	                                    <select id="categoryselect" name="category" class="form-control mr-sm-2" style="background-color: rgb(223, 244, 255);">
+	                                        <option value="">Please select one...</option>
+	                                        <option value="1">Homeware</option>
+	                                        <option value="2">Tools &amp; Equip</option>
+	                                        <option value="3">Sports &amp; Rec</option>
+	                                        <option value="4">Entertainment</option>
+	                                        <option value="5">Babies &amp; Kids</option>
+	                                        <option value="6">Fashion</option>
+	                                    </select>
+	                                    <div class="errorMsg" id="categoryError"></div>
+	                                </div>
+	                            </div>
+	
+	                            <div class="form-group row">
+	                                <!-- first row -->
+	                                <div class="col-sm-3">
+	                                    <label for="name">Product Title</label>
+	                                </div>
+	
+|3,0,6,1,50,0,1542041147,"<div class=\"container\">","    <div class=\"row\">","        <div class=\"col-md-10 mx-auto card my-5 shadow-lg rounded\">","            <div class=\"card-body\">","                <h2 class=\"card-title text-center mb-4\">Post Product</h2><br>","                <form id=\"itemform\" name=\"itemform\" enctype=\"multipart/form-data\" method=\"POST\" action=\"/postItem\">","                    <div class=\"form-group row\">",>50
+|<"                        <div class=\"col-md-4\">","                            <!-- first column -->","                            <img id=\"myImg\" class=\"mx-auto\" src=\"asset/img/image-not-found.png\" alt=\"Upload image\"","                                width=\"100%\" height=\"200\" />","                            <br><br>","                            <label for=\"photoURL\" class=\"btn btn-secondary btn-block\">Click",>65
+|<"                                here to upload an image</label>","                            <input type=\"file\" id=\"photoURL\" name=\"photoURL\" accept=\"image/*\" style=\"display: none\">","                            <div class=\"errorMsg\" id=\"imgError\"></div>","                        </div> <!-- col-md-4 -->","","                        <div class=\"col-md-1\">","                            <!---------------- empty column ---------------->","                        </div>",>2
+|<"","                        <div class=\"col-md-7\">","                            <!-- second column -->","                            <div class=\"form-group row\">","                                <!-- zero row -->","                                <div class=\"col-sm-3\">","                                    <label for=\"name\">Category</label>","                                </div>","","                                <div class=\"col-sm-9\">",>165
+|<"                                    <select id=\"categoryselect\" name=\"category\" class=\"form-control mr-sm-2\" style=\"background-color: rgb(223, 244, 255);\">","                                        <option value=\"\">Please select one...</option>","                                        <option value=\"1\">Homeware</option>","                                        <option value=\"2\">Tools &amp; Equip</option>",>87
+|<"                                        <option value=\"3\">Sports &amp; Rec</option>","                                        <option value=\"4\">Entertainment</option>","                                        <option value=\"5\">Babies &amp; Kids</option>","                                        <option value=\"6\">Fashion</option>","                                    </select>","                                    <div class=\"errorMsg\" id=\"categoryError\"></div>",>40
+|<"                                </div>","                            </div>","","                            <div class=\"form-group row\">","                                <!-- first row -->","                                <div class=\"col-sm-3\">","                                    <label for=\"name\">Product Title</label>","                                </div>",""
+"7	CHAR	0
+	}
+	
+	/*
+|3,0,7,0,3,0,1542032294,"}","","/*"
 "8	LINE	0
-	        }
-|3,0,8,1,1,0,1540866021,"        }"
+	
+|3,0,8,1,1,0,1542032212,""
 "9	LINE	0
-	            console.log("Sali inseretd 1 record inserted");
-|3,0,9,1,1,0,1540866021,"            console.log(\"Sali inseretd 1 record inserted\");"
+	>>>>>>> 1e5bde61dd17be43d0b2a328ef91eae3e83b7f4b
+|3,0,9,1,1,0,1540950808,">>>>>>> 1e5bde61dd17be43d0b2a328ef91eae3e83b7f4b"
 "-	CHAR	0
-	t
-|3,0,36,0,1,0,1540866034,"t"
+	x
+|3,0,36,0,1,0,1542036069,"x"
 
 # File marks:
-'0  131  0  ~/Group-08/index.js
-|4,48,131,0,1540957534,"~/Group-08/index.js"
-'1  1  0  ~/Group-08/index.js
-|4,49,1,0,1540957470,"~/Group-08/index.js"
-'2  1  0  ~/Group-08/Rent-emAll-Web-Portal/itemlisting.ejs
-|4,50,1,0,1540957291,"~/Group-08/Rent-emAll-Web-Portal/itemlisting.ejs"
-'3  98  0  ~/Group-08/index.js
-|4,51,98,0,1540957031,"~/Group-08/index.js"
-'4  98  0  ~/Group-08/index.js
-|4,52,98,0,1540957031,"~/Group-08/index.js"
-'5  98  0  ~/Group-08/index.js
-|4,53,98,0,1540957031,"~/Group-08/index.js"
-'6  1  0  ~/Group-08/index.js
-|4,54,1,0,1540951298,"~/Group-08/index.js"
-'7  1  0  ~/Group-08/index.js
-|4,55,1,0,1540951298,"~/Group-08/index.js"
-'8  1  0  ~/Group-08/index.js
-|4,56,1,0,1540951298,"~/Group-08/index.js"
-'9  1  0  ~/Group-08/index.js
-|4,57,1,0,1540951298,"~/Group-08/index.js"
+'0  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,48,1,2,1542044286,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+'1  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,49,1,2,1542043993,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+'2  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,50,1,2,1542043006,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+'3  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,51,1,2,1542043006,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+'4  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,52,1,2,1542042891,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+'5  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,53,1,2,1542042891,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+'6  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,54,1,2,1542042891,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+'7  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,55,1,2,1542042891,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+'8  1  4  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,56,1,4,1542042503,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+'9  1  4  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,57,1,4,1542042503,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
 
 # Jumplist (newest first):
--'  131  0  ~/Group-08/index.js
-|4,39,131,0,1540957534,"~/Group-08/index.js"
--'  1  0  ~/Group-08/index.js
-|4,39,1,0,1540957470,"~/Group-08/index.js"
--'  98  0  ~/Group-08/index.js
-|4,39,98,0,1540957462,"~/Group-08/index.js"
--'  1  0  ~/Group-08/Rent-emAll-Web-Portal/itemlisting.ejs
-|4,39,1,0,1540957291,"~/Group-08/Rent-emAll-Web-Portal/itemlisting.ejs"
--'  1  0  ~/Group-08/Rent-emAll-Web-Portal/itemlisting.ejs
-|4,39,1,0,1540957291,"~/Group-08/Rent-emAll-Web-Portal/itemlisting.ejs"
--'  1  0  ~/Group-08/Rent-emAll-Web-Portal/itemlisting.ejs
-|4,39,1,0,1540957291,"~/Group-08/Rent-emAll-Web-Portal/itemlisting.ejs"
--'  98  0  ~/Group-08/index.js
-|4,39,98,0,1540957031,"~/Group-08/index.js"
--'  98  0  ~/Group-08/index.js
-|4,39,98,0,1540957031,"~/Group-08/index.js"
--'  98  0  ~/Group-08/index.js
-|4,39,98,0,1540957031,"~/Group-08/index.js"
--'  1  0  ~/Group-08/index.js
-|4,39,1,0,1540957001,"~/Group-08/index.js"
--'  1  0  ~/Group-08/index.js
-|4,39,1,0,1540957001,"~/Group-08/index.js"
--'  1  0  ~/Group-08/index.js
-|4,39,1,0,1540957001,"~/Group-08/index.js"
--'  1  0  ~/Group-08/index.js
-|4,39,1,0,1540951298,"~/Group-08/index.js"
--'  1  0  ~/Group-08/index.js
-|4,39,1,0,1540951298,"~/Group-08/index.js"
--'  1  0  ~/Group-08/index.js
-|4,39,1,0,1540950822,"~/Group-08/index.js"
--'  1  0  ~/Group-08/index.js
-|4,39,1,0,1540950822,"~/Group-08/index.js"
--'  1  0  ~/Group-08/index.js
-|4,39,1,0,1540950284,"~/Group-08/index.js"
--'  1  0  ~/Group-08/index.js
-|4,39,1,0,1540950284,"~/Group-08/index.js"
--'  1  0  ~/Group-08/index.js
-|4,39,1,0,1540949557,"~/Group-08/index.js"
--'  1  0  ~/Group-08/index.js
-|4,39,1,0,1540949557,"~/Group-08/index.js"
--'  13  0  ~/Group-08/index.js
-|4,39,13,0,1540949553,"~/Group-08/index.js"
--'  13  0  ~/Group-08/index.js
-|4,39,13,0,1540949553,"~/Group-08/index.js"
--'  13  0  ~/Group-08/index.js
-|4,39,13,0,1540949553,"~/Group-08/index.js"
--'  13  0  ~/Group-08/index.js
-|4,39,13,0,1540949553,"~/Group-08/index.js"
--'  13  0  ~/Group-08/index.js
-|4,39,13,0,1540949553,"~/Group-08/index.js"
--'  13  0  ~/Group-08/index.js
-|4,39,13,0,1540949553,"~/Group-08/index.js"
--'  13  0  ~/Group-08/index.js
-|4,39,13,0,1540949553,"~/Group-08/index.js"
--'  13  0  ~/Group-08/index.js
-|4,39,13,0,1540949553,"~/Group-08/index.js"
--'  13  0  ~/Group-08/index.js
-|4,39,13,0,1540949553,"~/Group-08/index.js"
--'  13  0  ~/Group-08/index.js
-|4,39,13,0,1540949553,"~/Group-08/index.js"
--'  13  0  ~/Group-08/index.js
-|4,39,13,0,1540949553,"~/Group-08/index.js"
--'  13  0  ~/Group-08/index.js
-|4,39,13,0,1540949553,"~/Group-08/index.js"
--'  13  0  ~/Group-08/index.js
-|4,39,13,0,1540948060,"~/Group-08/index.js"
--'  13  0  ~/Group-08/index.js
-|4,39,13,0,1540948060,"~/Group-08/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
--'  35  30  ~/Group-08/Rent-emAll-Web-Portal/index.js
-|4,39,35,30,1540947330,"~/Group-08/Rent-emAll-Web-Portal/index.js"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542044286,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542043993,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542043006,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  2  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,2,1542042891,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  4  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,4,1542042503,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  119  8  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,119,8,1542041161,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  0  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,0,1542041147,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  31  51  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,31,51,1542040837,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  31  51  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,31,51,1542040153,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  0  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,0,1542040096,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  1  0  ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+|4,39,1,0,1542040096,"~/Group-08/Rent-emAll-Web-Portal/post-item.ejs"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
+-'  339  5  ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+|4,39,339,5,1542039818,"~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css"
 
 # History of marks within files (newest to oldest):
+
+> ~/Group-08/Rent-emAll-Web-Portal/post-item.ejs
+	*	1542044284	0
+	"	1	2
+	^	1	3
+	.	1	2
+	+	1	61
+	+	1	20
+	+	1	0
+	+	1	20
+	+	1	0
+	+	1	20
+	+	1	0
+	+	1	20
+	+	1	0
+	+	1	20
+	+	155	0
+	+	1	2
+
+> ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.css
+	*	1542039816	0
+	"	339	5
+	^	339	6
+	.	339	0
+	+	28	13
+	+	30	18
+	+	28	12
+	+	30	21
+	+	31	19
+	+	41	18
+	+	24	20
+	+	51	1
+	+	292	0
+	+	288	23
+	+	297	24
+	+	301	0
+	+	300	0
+	+	329	33
+	+	304	19
+	+	306	21
+	+	304	2
+	+	302	59
+	+	313	51
+	+	314	51
+	+	315	0
+	+	318	43
+	+	320	0
+	+	323	43
+	+	325	0
+	+	328	56
+	+	330	0
+	+	332	0
+	+	330	0
+	+	332	0
+	+	292	0
+	+	293	0
+	+	305	1
+	+	306	24
+	+	307	0
+	+	306	24
+	+	307	29
+	+	308	4
+	+	306	25
+	+	307	8
+	+	329	49
+	+	332	4
+	+	331	5
+	+	334	4
+	+	333	7
+	+	306	47
+	+	292	1
+	+	290	1
+	+	306	18
+	+	307	0
+	+	332	18
+	+	305	22
+	+	306	21
+	+	336	25
+	+	340	0
+	+	339	0
+
+> ~/Group-08/Rent-emAll-Web-Portal/faq.ejs
+	*	1542039390	0
+	"	28	165
+	^	28	166
+	.	28	165
+	+	166	59
+	+	149	15
+	+	124	52
+	+	165	68
+	+	148	98
+	+	123	95
+	+	98	16
+	+	80	68
+	+	54	95
+	+	35	19
+	+	28	7
+	+	28	159
+	+	28	9
+	+	28	165
+
+> ~/Group-08/Rent-emAll-Web-Portal/shared/header.ejs
+	*	1542038239	0
+	"	27	22
+	^	56	23
+	.	37	110
+	+	4	106
+	+	36	87
+	+	37	112
+	+	25	62
+	+	38	103
+	+	25	53
+	+	26	81
+	+	36	95
+	+	37	112
+	+	36	90
+	+	26	83
+	+	36	84
+	+	37	106
+	+	38	100
+	+	36	98
+	+	37	115
+	+	38	100
+	+	26	76
+	+	36	96
+	+	37	113
+	+	26	69
+	+	36	84
+	+	37	102
+	+	38	100
+	+	1	0
+	+	37	113
+	+	38	111
+	+	1	0
+	+	37	104
+	+	38	103
+	+	26	90
+	+	36	105
+	+	37	129
+	+	38	121
+	+	26	89
+	+	36	104
+	+	37	121
+	+	38	120
+	+	37	113
+	+	38	103
+	+	37	20
+	+	37	110
+
+> ~/Group-08/Rent-emAll-Web-Portal/asset/css/styles.cee
+	*	1542029423	0
+	"	1	0
+
+> ~/Group-08/Rent-emAll-Web-Portal/shared/navbar.ejs
+	*	1542027108	0
+	"	4	0
+	^	4	0
+	.	4	0
+	+	4	0
+
+> ~/Group-08/Rent-emAll-Web-Portal/shared/styles.css
+	*	1542020777	0
+	"	1	0
+
+> ~/Group-08/index.html
+	*	1542019302	0
+	"	15	9
+	^	15	10
+	.	16	17
+	+	10	0
+	+	12	53
+	+	14	52
+	+	15	0
+	+	14	26
+	+	13	0
+	+	12	11
+	+	19	9
+	+	17	63
+	+	18	60
+	+	16	17
+
+> ~/Group-08/Rent-emAll-Web-Portal/contactus.ejs
+	*	1542018340	0
+	"	16	67
+	^	16	68
+	.	16	67
+	+	14	53
+	+	15	47
+	+	16	67
 
 > ~/Group-08/index.js
 	*	1540957530	0
@@ -445,23 +971,6 @@ $
 	+	1	20
 	+	99	0
 	+	1	2
-
-> ~/Group-08/index.html
-	*	1540769087	0
-	"	15	9
-	^	15	10
-	.	16	17
-	+	10	0
-	+	12	53
-	+	14	52
-	+	15	0
-	+	14	26
-	+	13	0
-	+	12	11
-	+	19	9
-	+	17	63
-	+	18	60
-	+	16	17
 
 > ~/Group-08/Rent-emAll-Web-Portal/asset/js/scripts.js
 	*	1540725835	0
